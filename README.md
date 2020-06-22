@@ -220,6 +220,16 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 
 * 2.1 Cisco SD Access
   * 🗒️ [Cisco Docs - DNA Assurance User Guide 1.3.1](https://www.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/dna-center-assurance/1-3-1-0/b_cisco_dna_assurance_1_3_1_0_ug.html)
+  * [Cisco Live - Cisco DNA Center - Network operation and cross architecture integration with IT Service Management - DGTL-BRKNMS-2458](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153550070001JR6j)
+  * [Cisco Live - Cisco DNA Center: The evolution from traditional Management to Intent-Based Automation and Assurance - DGTL-BRKNMS-2031](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549708001JKkm)
+  * [Cisco Live - DNA-C Design and Policy - DEMCOC-602](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057454471001bDUv)
+  * [Cisco Live - Policy and Segmentation with Cisco DNA Center - DEMCRS-601](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057460045001bOTB)
+  * [Cisco Live - SD-Access Fabric, Why is My Salsa So Tasty? How SD-Access Solves Enterprise Challenges - DLBTEC-51](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/15892240689180019WZ6)
+  * [Cisco Live - SD Access : Troubleshooting the fabric - DGTL-BRKARC-2020](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153537677001Jo5z)
+  * 🗒️ [Cisco CVD - Software Defined Access Design Guide](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/CVD-Software-Defined-Access-Design-Sol1dot2-2018DEC.pdf)
+  * 🗒️ [Cisco CVD - SD Access Deployment Guide](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/CVD-Software-Defined-Access-Segmentation-Design-Guide-2018MAY.pdf)
+  * [Cisco Software-Defined Access (August 2020)](https://learning.oreilly.com/library/view/cisco-software-defined-access/9780136448341/)
+  * [Cisco Digital Network Architecture: Intent-based Networking for the Enterprise](https://learning.oreilly.com/library/view/cisco-digital-network/9780134723952/)
 * 2.1.a Design a Cisco SD Access solution
   * 2.1.a i Underlay network (IS-IS, manual/PnP)
   * 2.1.a ii Overlay fabric design (LISP, VXLAN, Cisco TrustSec)
@@ -241,6 +251,18 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 * 2.2 Cisco SD-WAN
   * 🗒️ [Cisco Docs - vManage How Tos](https://sdwan-docs.cisco.com/Product_Documentation/vManage_How-Tos/Configuration)
   * 🗒️ [Cisco Docs - Device Configuration Template](https://sdwan-docs.cisco.com/Product_Documentation/vManage_How-Tos/Configuration/Create_a_Device_Configuration_Template)
+  * [Cisco Design Zone for Branch, WAN, and Internet Edge](https://www.cisco.com/c/en/us/solutions/design-zone/networking-design-guides/branch-wan-edge.html)
+  * [Cisco Live - SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search=SD-WAN)
+  * [Cisco SD-WAN Design Guide](https://www.cisco.com/c/en/us/td/docs/solutions/CVD/SDWAN/cisco-sdwan-design-guide.html)
+  * [Cisco Live - Building and Using Policies with Cisco SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553280001Jhr9)
+  * [Cisco Live - Delivering Cisco Next Generation SD-WAN with Viptela - BRKCRS-2110](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153542774001Jftj)
+  * [Cisco Live - Designing for a Cloud-Ready Secure WAN Architecture - DLBTEC-50](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1588378944558001YIgm)
+  * [Cisco Live - SD-WAN and Network Functions Service Chaining - DGTL-BRKENS-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1572617849119001peXV)
+  * [Cisco Live - SD-WAN, deployment strategies, managing and monitoring - BRKRST-2519](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553037001JE2U)
+  * [Cisco Live - SD-WAN Enterprise Routing Platform Overview - DGTL-BRKARC-2102](https://letselevatetech-my.sharepoint.com/personal/gary_ossewaarde_letselevate_tech/_layouts/OneNote.aspx?id=%2Fpersonal%2Fgary_ossewaarde_letselevate_tech%2FDocuments%2FNotebooks%2FCCIE%20EI&wd=target%282.2%20Cisco%20SD-WAN.one%7C15070AE8-FEA8-408C-A425-DB1CC1533DB6%2FResources%7C42374501-9056-D94B-A8BB-F7FC4091CCE2%2F%29
+onenote:https://letselevatetech-my.sharepoint.com/personal/gary_ossewaarde_letselevate_tech/Documents/Notebooks/CCIE%20EI/2.2%20Cisco%20SD-WAN.one#Resources&section-id={15070AE8-FEA8-408C-A425-DB1CC1533DB6}&page-id={42374501-9056-D94B-A8BB-F7FC4091CCE2}&object-id={0D02A553-01D8-49EC-8D64-A06BF65F20FA}&1A)
+  * [Book - CCNP Enterprise Design ENSLD 300-420 Official Cert Guide Chapter 11](https://learning.oreilly.com/library/view/ccnp-enterprise-design/9780136575160/)
+  * [Book - Software Defined Wide Area Networks (Aug 2020)](https://www.ciscopress.com/store/cisco-software-defined-wide-area-networks-designing-9780136533177)
 * 2.2.a Design a Cisco SD-WAN solution
   * 2.2.a i Orchestration plane (vBond, NAT)
   * 2.2.a ii Management plane (vManage)
@@ -264,6 +286,7 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
   * 🗒️ [Cisco Docs - MPLS Label Distribution Protocol Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_ldp/configuration/xe-16/mp-ldp-xe-16-book.html)
   * 🗒️ [Cisco Docs - MPLS: Layer 3 VPNs Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_l3_vpns/configuration/xe-16-12/mp-l3-vpns-xe-16-12-book.html)
   * [Cisco Live - MPLS](https://www.ciscolive.com/global/on-demand-library.html?search=MPLS#/)
+  * [Cisco Live - Introduction to MPLS - DGTL-BRKMPL-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549100001JJkV)
 * 3.1.a Operations
   * 3.1.a i Label stack, LSR, LSP
   * 3.1.a ii LDP
