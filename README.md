@@ -2,9 +2,16 @@
 
 This is a list of resources for CCIE Enterprise Infrastructure candidates. It is not meant to be exhaustive, please add to it! Pull requests welcome. 
 
+* [0.0 General](#00-general)
+* [1.0 Network Infrastructure](#10-network-infrastructure)
+* [2.0 Software Defined Infrastructure](#20-software-defined-infrastructure)
+* [3.0 Transport Technologies and Solutions](#30-transport-technologies-and-solutions)
+* [4.0 Infrastructure Security and Services](#40-infrastructure-security-and-services)
+* [5.0 Infrastructure Automation and Programmability](#50-infrastructure-automation-and-programmability)
+
 
 --------------------
-
+ 
 ## 0.0 General 
 
 ### 0.1 Cisco Resources 
