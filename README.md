@@ -13,7 +13,7 @@ Legend:
 * 📺 Video
 * 🗒️ Cisco Docs 
 * 📚 Book
-* 📝 RFC
+* 📝 RFC/Standard 
 
 --------------------
  
@@ -464,22 +464,36 @@ Legend:
 
 ## 5.0 Infrastructure Automation and Programmability 
 
+* 📚 [Network Programmability and Automation](https://learning.oreilly.com/library/view/network-programmability-and/9781491931240/)
+* 📺 [Cisco DevNet - Learn network programmability basics](https://developer.cisco.com/video/net-prog-basics/)
+
 ### 5.1 Data encoding formats
 
 * 5.1.a JSON
+  * 📝 [RFC 8259](https://tools.ietf.org/html/rfc8259)
+  * 📝 [ISO/IEC 21778:2017 Information technology — The JSON data interchange syntax](https://www.iso.org/standard/71616.html)
+  * 📝 [ECMA-404 The JSON Data Interchange Format (PDF)](https://www.ecma-international.org/publications/files/ECMA-ST-ARCH/ECMA-404%201st%20edition%20October%202013.pdf)
 * 5.1.b XML
+  * 📝 [RFC 3470 / BCP 70 Guidelines for the Use of Extensible Markup Language (XML) within IETF Protocols](https://tools.ietf.org/html/rfc3470)
+  * 📝 [W3C Extensible Markup Language (XML) 1.0 (Fifth Edition)](https://www.w3.org/TR/REC-xml/)
+
 
 ### 5.2 Automation and scripting
 
 * 5.2.a EEM applets
   * 🗒️ [Cisco IOS-XE Docs - Embedded Event Manager Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/eem/configuration/xe-16-10/eem-xe-16-10-book.html)
 * 5.2.b Guest shell
-  * 🗒️ [Cisco IOS-XE Docs - Programmability Configuration Guide Chapter: Guest Shell](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1610/b_1610_programmability_cg/guest_shell.html)
+  * 🗒️ [Cisco IOS-XE Docs - Programmability Configuration Guide, Cisco IOS XE Gibraltar 16.12.x Chapter: Guest Shell](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1612/b_1612_programmability_cg/guest_shell.html)
   * 5.2.b i Linux environment
   * 5.2.b ii CLI Python module
+    * 🗒️ [Cisco IOS-XE Docs - Programmability Configuration Guide, Cisco IOS XE Gibraltar 16.12.x Chatper: CLI Python Module](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1612/b_1612_programmability_cg/cli_python_module.html)
   * 5.2.b iii EEM Python module
+    * 🗒️ [Cisco IOS-XE Docs - Programmability Configuration Guide, Cisco IOS XE Gibraltar 16.12.x Chapter: EEM Python Module](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1612/b_1612_programmability_cg/eem_python_module.html)
 
 ### 5.3 Programmability
+
+* [Python requests library](https://requests.readthedocs.io/en/master/)
+* [Postman](https://www.postman.com/)
 
 * 5.3.a Interaction with vManage API
   * 5.3.a i Python requests library and Postman
