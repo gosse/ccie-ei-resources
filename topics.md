@@ -197,10 +197,6 @@
 
 ### 3.1 MPLS
 
-
-
-
-
 * 3.1.a Operations
   * 3.1.a i Label stack, LSR, LSP
   * 3.1.a ii LDP
@@ -213,16 +209,11 @@
 ### 3.2 DMVPN
 
 * 3.2 DMVPN 
-
-
 * 3.2.a Troubleshoot DMVPN Phase 3 with dual-hub
   * 3.2.a i NHRP
   * 3.2.a ii IPsec/IKEv2 using pre-shared key
   * 3.2.a iii Per-Tunnel QoS
-
 * 3.2.b Identify use-cases for FlexVPN
-
-
   * 3.2.b i Site-to-site, Server, Client, Spoke-to-Spoke
   * 3.2.b ii IPsec/IKEv2 using pre-shared key
   * 3.2.b iii MPLS over FlexVPN
@@ -233,7 +224,6 @@
 ### 4.1 Device Security on Cisco IOS XE
 
 * 4.1.a Control plane policing and protection
-
 * 4.1.b AAA
 
 
@@ -241,28 +231,17 @@
 
 * 4.2.a Switch security features
   * 4.2.a i VACL, PACL
-
   * 4.2.a ii Storm control
-
   * 4.2.a iii DHCP Snooping, DHCP option 82
-
   * 4.2.a iv IP Source 
-
   * 4.2.a v Dynamic ARP Inspection
-
   * 4.2.a vi Port Security
-
   * 4.2.a vii Private VLAN
-
 * 4.2.b Router security features
   * 4.2.b i IPv6 Traffic Filters
   * 4.2.b ii IPv4 Access Control Lists
-
-
   * 4.2.b iii Unicast Reverse Path Forwarding
 * 4.2.c IPv6 infrastructure security features
-
-
   * 4.2.c i RA Guard
   * 4.2.c ii DHCP Guard
   * 4.2.c iii Binding table
@@ -270,8 +249,6 @@
   * 4.2.c v ND Inspection/Snooping
   * 4.2.c vi Source Guard
 * 4.2.d IEEE 802.1X Port-Based Authentication
-
-
   * 4.2.d i Device roles, port states
   * 4.2.d ii Authentication process
   * 4.2.d iii Host modes
@@ -279,25 +256,18 @@
 
 ### 4.3 System Management
 
-* 4.3 System Management 
-
 * 4.3.a Device management
   * 4.3.a i Console and VTY
   * 4.3.a ii SSH, SCP
   * 4.3.a iii RESTCONF, NETCONF
 * 4.3.b SNMP
-
   * 4.3.b i v2c
   * 4.3.b ii v3
 * 4.3.c Logging
-
   * 4.3.c i Local logging, syslog, debugs, conditional debugs
   * 4.3.c ii Timestamps
 
 ### 4.4 Quality of Service
-
-* 4.4 Quality of Service
-
 
 * 4.4.a End to end L3 QoS using MQC
   * 4.4.a i DiffServ
@@ -312,22 +282,18 @@
 ### 4.5 Network Services
 
 * 4.5.a First-Hop Redundancy Protocols
-
   * 4.5.a i HSRP, GLBP, VRRP
   * 4.5.a ii Redundancy using IPv6 RS/RA
 * 4.5.b Network Time Protocol
-
   * 4.5.b i Master, client
   * 4.5.b ii Authentication
 * 4.5.c DHCP on Cisco IOS
-
   * 4.5.c i Client, server, relay
   * 4.5.c ii Options
   * 4.5.c iii SLAAC/DHCPv6 interaction
   * 4.5.c iv Stateful, stateless DHCPv6
   * 4.5.c v DHCPv6 Prefix Delegation
 * 4.5.d IPv4 Network Address Translation
-
   * 4.5.d i Static NAT, PAT
   * 4.5.d ii Dynamic NAT, PAT
   * 4.5.d iii Policy-based NAT, PAT
@@ -338,12 +304,10 @@
 ### 4.6 Network optimization
 
 * 4.6.a IP SLA
-
   * 4.6.a i ICMP probes
   * 4.6.a ii UDP probes
   * 4.6.a iii TCP probes
 * 4.6.b Tracking object
-
 * 4.6.c Flexible Netflow
 
 
@@ -352,16 +316,10 @@
 * 4.7.a Traffic capture
   * 4.7.a i SPAN
   * 4.7.a ii RSPAN
-
   * 4.7.a iii ERSPAN
-
   * 4.7.a iv Embedded Packet Capture
-
-
 * 4.7.b Cisco IOS-XE troubleshooting tools
   * 4.7.b i Packet Trace
-
-
   * 4.7.b ii Conditional debugger (debug platform condition)
 
 
@@ -375,9 +333,7 @@
 ### 5.2 Automation and scripting
 
 * 5.2.a EEM applets
-
 * 5.2.b Guest shell
-
   * 5.2.b i Linux environment
   * 5.2.b ii CLI Python module
   * 5.2.b iii EEM Python module
@@ -391,11 +347,9 @@
 * 5.3.b Interaction with Cisco DNA Center API
   * 5.3.b i HTTP request (GET, PUT, POST) via Python requests library and Postman
 * 5.3.c Interaction with Cisco IOS XE API
-
   * 5.3.c i Via NETCONF/YANG using Python ncclient library
   * 5.3.c ii Via RESTCONF/YANG using Python requests library and Postman
 * 5.3.d Deploy and verify model-driven telemetry
-
   * 5.3.d i Configure on-change subscription using gRPC
 
 
