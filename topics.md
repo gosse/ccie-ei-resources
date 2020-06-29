@@ -71,7 +71,6 @@
 
 ### 1.4 OSPF (v2 and v3)
 
-
 * 1.4.a Adjacencies
 * 1.4.b Network types, area types
 * 1.4.c Path preference
@@ -88,9 +87,6 @@
   * 1.4.e vi Prefix suppression
 
 ### 1.5 BGP
-
-
-
 
 * 1.5.a IBGP and EBGP peer relationships
   * 1.5.a i Peer-group/update-group, template
@@ -122,14 +118,6 @@
 
 ### 1.6 Multicast
 
-* 1.6 Multicast
-
-
-
-
-
-
-
 * 1.6.a Layer 2 multicast
   * 1.6.a i IGMPv2, IGMPv3
   * 1.6.a ii IGMP Snooping, PIM Snooping
@@ -152,11 +140,6 @@
 
 ### 2.1 Cisco SD Access
 
-
-
-
-
-
 * 2.1.a Design a Cisco SD Access solution
   * 2.1.a i Underlay network (IS-IS, manual/PnP)
   * 2.1.a ii Overlay fabric design (LISP, VXLAN, Cisco TrustSec)
@@ -174,9 +157,6 @@
   * 2.1.d ii Monitoring and troubleshooting
 
 ### 2.2 Cisco SD-WAN
-
-
-
 
 * 2.2.a Design a Cisco SD-WAN solution
   * 2.2.a i Orchestration plane (vBond, NAT)
