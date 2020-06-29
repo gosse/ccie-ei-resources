@@ -486,6 +486,3 @@ onenote:https://letselevatetech-my.sharepoint.com/personal/gary_ossewaarde_letse
   * 5.3.d i Configure on-change subscription using gRPC
 
 
-
-
-
