@@ -9,6 +9,11 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 * [4.0 Infrastructure Security and Services](#40-infrastructure-security-and-services)
 * [5.0 Infrastructure Automation and Programmability](#50-infrastructure-automation-and-programmability)
 
+Legend: 
+* 📺 Video
+* 🗒️ Cisco Docs 
+* 📚 Book
+* 📝 RFC
 
 --------------------
  
@@ -20,7 +25,7 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 * [CCIE Enterprise Infrastructure Equipment and Software List](https://learningnetwork.cisco.com/s/article/ccie-enterprise-infrastructure-equipment-and-software-list)
 * [Cisco CCIE EI Training Tracking Log/Matrix (XLSX)]( https://www.cisco.com/c/dam/en_us/training-events/le31/le46/cln/marketing/learning-matrix/CCIE-Enterprise-Infrastructure-v1-Learning-Matrix.xlsx)
 * [CCIE Practical Exam / LAB overview](https://learningnetwork.cisco.com/s/article/ccie-practical-exam-format)
-* [Cisco Live On-Demand Library](https://www.ciscolive.com/global/on-demand-library.html?#/)
+* 📺 [Cisco Live On-Demand Library](https://www.ciscolive.com/global/on-demand-library.html?#/)
 * [Cisco DevNet](https://developer.cisco.com/site/networking/)
 * [Cisco Design Zone (CVD)](https://www.cisco.com/c/en/us/solutions/design-zone.html)
 * [Cisco Communities](https://community.cisco.com/t5/other-network-architecture/bd-p/5981-discussions-other-network-infra)
@@ -51,7 +56,7 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 ### 1.1 Switched Campus 
 
 * 1.1 Switched Campus
-  * [Cisco IOS-XE Docs - LAN Switching Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/lanswitch/configuration/xe-16-12/lanswitch-xe-16-12-book.html)
+  * 🗒️ [Cisco IOS-XE Docs - LAN Switching Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/lanswitch/configuration/xe-16-12/lanswitch-xe-16-12-book.html)
 * 1.1.a Switch administration
   * 1.1.a i Managing MAC address table
   * 1.1.a ii Errdisable recovery
@@ -129,9 +134,9 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 * 1.4 OSPF 
   * 📝 [RFC 2328 OSPF Version 2](https://tools.ietf.org/html/rfc2328)
   * 📝 [RFC 5340 OSPF for IPv6](https://tools.ietf.org/html/rfc5340)
-  * 📚 [Book - OSPF - anatomy of an Internet Routing Protocol]()
-  * 📚 [Book - Cisco IP Routing - Packet Forwarding and Intra-domain Routing Protocols]()
-  * 📚 [Book - Routing TCP/IP Vol. 1]()
+  * 📚 [OSPF - anatomy of an Internet Routing Protocol]()
+  * 📚 [Cisco IP Routing - Packet Forwarding and Intra-domain Routing Protocols]()
+  * 📚 [Routing TCP/IP Vol. 1]()
   * 🗒️ [Cisco IOS-XE Docs - OSPF Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16-10/iro-xe-16-10-book.html)
 * 1.4.a Adjacencies
 * 1.4.b Network types, area types
@@ -194,7 +199,7 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
   * 📚 [Routing TCP/IP, Vol II](https://learning.oreilly.com/library/view/routing-tcpip-volume/9780134192772/)
   * 📚 [Developing IP Multicast Networks](https://www.ciscopress.com/store/developing-ip-multicast-networks-volume-i-paperback-9781587142895)
   * 📚 [Interdomain Multicast Routing: Practical Juniper Networks and Cisco Systems Solutions](https://learning.oreilly.com/library/view/interdomain-multicast-routing/0201746123/)
-  * 📺[ Introduction to IP Multicast - DGTL-BRKIPM-1261](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153548896001JvK2)
+  * 📺 [Introduction to IP Multicast - DGTL-BRKIPM-1261](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153548896001JvK2)
   * 📺 [Multicast Troubleshooting - BRKIPM-2264](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153548978001J6Mh)
 * 1.6.a Layer 2 multicast
   * 1.6.a i IGMPv2, IGMPv3
@@ -220,16 +225,16 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 
 * 2.1 Cisco SD Access
   * 🗒️ [Cisco Docs - DNA Assurance User Guide 1.3.1](https://www.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/dna-center-assurance/1-3-1-0/b_cisco_dna_assurance_1_3_1_0_ug.html)
-  * [Cisco Live - Cisco DNA Center - Network operation and cross architecture integration with IT Service Management - DGTL-BRKNMS-2458](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153550070001JR6j)
-  * [Cisco Live - Cisco DNA Center: The evolution from traditional Management to Intent-Based Automation and Assurance - DGTL-BRKNMS-2031](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549708001JKkm)
-  * [Cisco Live - DNA-C Design and Policy - DEMCOC-602](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057454471001bDUv)
-  * [Cisco Live - Policy and Segmentation with Cisco DNA Center - DEMCRS-601](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057460045001bOTB)
-  * [Cisco Live - SD-Access Fabric, Why is My Salsa So Tasty? How SD-Access Solves Enterprise Challenges - DLBTEC-51](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/15892240689180019WZ6)
-  * [Cisco Live - SD Access : Troubleshooting the fabric - DGTL-BRKARC-2020](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153537677001Jo5z)
+  * 📺 [Cisco Live - Cisco DNA Center - Network operation and cross architecture integration with IT Service Management - DGTL-BRKNMS-2458](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153550070001JR6j)
+  * 📺 [Cisco Live - Cisco DNA Center: The evolution from traditional Management to Intent-Based Automation and Assurance - DGTL-BRKNMS-2031](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549708001JKkm)
+  * 📺 [Cisco Live - DNA-C Design and Policy - DEMCOC-602](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057454471001bDUv)
+  * 📺 [Cisco Live - Policy and Segmentation with Cisco DNA Center - DEMCRS-601](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057460045001bOTB)
+  * 📺 [Cisco Live - SD-Access Fabric, Why is My Salsa So Tasty? How SD-Access Solves Enterprise Challenges - DLBTEC-51](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/15892240689180019WZ6)
+  * 📺 [Cisco Live - SD Access : Troubleshooting the fabric - DGTL-BRKARC-2020](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153537677001Jo5z)
   * 🗒️ [Cisco CVD - Software Defined Access Design Guide](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/CVD-Software-Defined-Access-Design-Sol1dot2-2018DEC.pdf)
   * 🗒️ [Cisco CVD - SD Access Deployment Guide](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/CVD-Software-Defined-Access-Segmentation-Design-Guide-2018MAY.pdf)
-  * [Cisco Software-Defined Access (August 2020)](https://learning.oreilly.com/library/view/cisco-software-defined-access/9780136448341/)
-  * [Cisco Digital Network Architecture: Intent-based Networking for the Enterprise](https://learning.oreilly.com/library/view/cisco-digital-network/9780134723952/)
+  * 📚 [Cisco Software-Defined Access (August 2020)](https://learning.oreilly.com/library/view/cisco-software-defined-access/9780136448341/)
+  * 📚 [Cisco Digital Network Architecture: Intent-based Networking for the Enterprise](https://learning.oreilly.com/library/view/cisco-digital-network/9780134723952/)
 * 2.1.a Design a Cisco SD Access solution
   * 2.1.a i Underlay network (IS-IS, manual/PnP)
   * 2.1.a ii Overlay fabric design (LISP, VXLAN, Cisco TrustSec)
@@ -251,17 +256,17 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 * 2.2 Cisco SD-WAN
   * 🗒️ [Cisco Docs - vManage How Tos](https://sdwan-docs.cisco.com/Product_Documentation/vManage_How-Tos/Configuration)
   * 🗒️ [Cisco Docs - Device Configuration Template](https://sdwan-docs.cisco.com/Product_Documentation/vManage_How-Tos/Configuration/Create_a_Device_Configuration_Template)
-  * [Cisco Design Zone for Branch, WAN, and Internet Edge](https://www.cisco.com/c/en/us/solutions/design-zone/networking-design-guides/branch-wan-edge.html)
-  * [Cisco Live - SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search=SD-WAN)
-  * [Cisco SD-WAN Design Guide](https://www.cisco.com/c/en/us/td/docs/solutions/CVD/SDWAN/cisco-sdwan-design-guide.html)
-  * [Cisco Live - Building and Using Policies with Cisco SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553280001Jhr9)
-  * [Cisco Live - Delivering Cisco Next Generation SD-WAN with Viptela - BRKCRS-2110](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153542774001Jftj)
-  * [Cisco Live - Designing for a Cloud-Ready Secure WAN Architecture - DLBTEC-50](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1588378944558001YIgm)
-  * [Cisco Live - SD-WAN and Network Functions Service Chaining - DGTL-BRKENS-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1572617849119001peXV)
-  * [Cisco Live - SD-WAN, deployment strategies, managing and monitoring - BRKRST-2519](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553037001JE2U)
-  * [Cisco Live - SD-WAN Enterprise Routing Platform Overview - DGTL-BRKARC-2102]
-  * [Book - CCNP Enterprise Design ENSLD 300-420 Official Cert Guide Chapter 11](https://learning.oreilly.com/library/view/ccnp-enterprise-design/9780136575160/)
-  * [Book - Software Defined Wide Area Networks (Aug 2020)](https://www.ciscopress.com/store/cisco-software-defined-wide-area-networks-designing-9780136533177)
+  * 🗒️ [Cisco Design Zone for Branch, WAN, and Internet Edge](https://www.cisco.com/c/en/us/solutions/design-zone/networking-design-guides/branch-wan-edge.html)
+  * 🗒️ [Cisco SD-WAN Design Guide](https://www.cisco.com/c/en/us/td/docs/solutions/CVD/SDWAN/cisco-sdwan-design-guide.html)
+  * 📺 [Cisco Live - SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search=SD-WAN)
+  * 📺 [Cisco Live - Building and Using Policies with Cisco SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553280001Jhr9)
+  * 📺 [Cisco Live - Delivering Cisco Next Generation SD-WAN with Viptela - BRKCRS-2110](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153542774001Jftj)
+  * 📺 [Cisco Live - Designing for a Cloud-Ready Secure WAN Architecture - DLBTEC-50](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1588378944558001YIgm)
+  * 📺 [Cisco Live - SD-WAN and Network Functions Service Chaining - DGTL-BRKENS-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1572617849119001peXV)
+  * 📺 [Cisco Live - SD-WAN, deployment strategies, managing and monitoring - BRKRST-2519](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553037001JE2U)
+  * 📺 [Cisco Live - SD-WAN Enterprise Routing Platform Overview - DGTL-BRKARC-2102]
+  * 📚 [CCNP Enterprise Design ENSLD 300-420 Official Cert Guide Chapter 11](https://learning.oreilly.com/library/view/ccnp-enterprise-design/9780136575160/)
+  * 📚 [Software Defined Wide Area Networks (Aug 2020)](https://www.ciscopress.com/store/cisco-software-defined-wide-area-networks-designing-9780136533177)
 * 2.2.a Design a Cisco SD-WAN solution
   * 2.2.a i Orchestration plane (vBond, NAT)
   * 2.2.a ii Management plane (vManage)
@@ -284,8 +289,8 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 * 3.1 MPLS 
   * 🗒️ [Cisco Docs - MPLS Label Distribution Protocol Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_ldp/configuration/xe-16/mp-ldp-xe-16-book.html)
   * 🗒️ [Cisco Docs - MPLS: Layer 3 VPNs Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_l3_vpns/configuration/xe-16-12/mp-l3-vpns-xe-16-12-book.html)
-  * [Cisco Live - MPLS](https://www.ciscolive.com/global/on-demand-library.html?search=MPLS#/)
-  * [Cisco Live - Introduction to MPLS - DGTL-BRKMPL-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549100001JJkV)
+  * 📺 [Cisco Live - MPLS](https://www.ciscolive.com/global/on-demand-library.html?search=MPLS#/)
+  * 📺 [Cisco Live - Introduction to MPLS - DGTL-BRKMPL-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549100001JJkV)
 * 3.1.a Operations
   * 3.1.a i Label stack, LSR, LSP
   * 3.1.a ii LDP
@@ -299,15 +304,21 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 
 * 3.2 DMVPN 
   * 🗒️ [Cisco Docs - Dynamic Multipoint VPN Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_dmvpn/configuration/xe-16-12/sec-conn-dmvpn-xe-16-12-book.html)
-  * [Cisco Live - DMVPN](https://www.ciscolive.com/global/on-demand-library.html?search=DMVPN#/)
+  * 📺 [Cisco Live - Demystifying DMVPN BRKSEC-3052](https://www.ciscolive.com/global/on-demand-library.html?search=dmvpn#/session/1484773617788001WfsN)
+  * 📺 [Cisco Live - DMVPN](https://www.ciscolive.com/global/on-demand-library.html?search=DMVPN#/)
+  * 📺 [Cisco Live -  Advanced Concepts of DMVPN BRKSEC-4054](https://www.ciscolive.com/c/global/on-demand-library.html?search=dmvpn#/session/1484773617075001W8sx)
 * 3.2.a Troubleshoot DMVPN Phase 3 with dual-hub
+  * 📺 [Cisco Live -  Troubleshooting Dynamic Multipoint VPN (DMVPN) BRKSEC-3052](https://www.ciscolive.com/global/on-demand-library.html?search=dmvpn#/session/1454486436572001QYT4)
   * 3.2.a i NHRP
   * 3.2.a ii IPsec/IKEv2 using pre-shared key
   * 3.2.a iii Per-Tunnel QoS
     * 🗒️ [Cisco Docs - DMVPN - Per-Tunnel QoS](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_dmvpn/configuration/15-mt/sec-conn-dmvpn-15-mt-book/sec-conn-dmvpn-per-tunnel-qos.html)
 * 3.2.b Identify use-cases for FlexVPN
   * 🗒️ [Cisco Docs - FlexVPN and Internet Key Exchange Version 2 Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_ike2vpn/configuration/xe-16-12/sec-flex-vpn-xe-16-12-book.html)
-  * [Cisco Live - FlexVPN](https://www.ciscolive.com/global/on-demand-library.html?search=Flexvpn#/)
+  * 📺 [Cisco Live - FlexVPN](https://www.ciscolive.com/global/on-demand-library.html?search=Flexvpn#/)
+  * 📺 [Cisco Live - Advanced IPSec designs with FlexVPN BRKSEC-3036](https://www.ciscolive.com/global/on-demand-library.html?search=flexvpn#/session/14479207933930017VDW)
+  * 📺 [Cisco Live - Advanced IOS FlexVPN Lab LTRSEC-3004](https://www.ciscolive.com/global/on-demand-library.html?search=flexvpn#/session/LTRSEC-3004)
+  * 📺 [Cisco Live - FlexVPN Remote-Access, IoT & Site- to-Site Advanced Crypto Design BRKSEC-3054](https://www.ciscolive.com/global/on-demand-library.html?search=flexvpn#/session/1564677379756001J63z)
   * 3.2.b i Site-to-site, Server, Client, Spoke-to-Spoke
   * 3.2.b ii IPsec/IKEv2 using pre-shared key
   * 3.2.b iii MPLS over FlexVPN
@@ -372,7 +383,7 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
   * 4.3.a ii SSH, SCP
   * 4.3.a iii RESTCONF, NETCONF
 * 4.3.b SNMP
-  * [SNMP Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book.html)
+  * 🗒️ [Cisco Docs - SNMP Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book.html)
   * 4.3.b i v2c
   * 4.3.b ii v3
 * 4.3.c Logging
@@ -384,7 +395,7 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 
 * 4.4 Quality of Service
   * 🗒️ [Cisco Docs - QoS Modular QoS Command-Line Interface Configuration Guide, Cisco IOS XE Gibraltar 16.12.x](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/qos_mqc/configuration/xe-16-12/qos-mqc-xe-16-12-book.html)
-  * [Cisco Live - QoS](https://www.ciscolive.com/global/on-demand-library.html?search=qos#/)
+  * 📺 [Cisco Live - QoS](https://www.ciscolive.com/global/on-demand-library.html?search=qos#/)
 * 4.4.a End to end L3 QoS using MQC
   * 4.4.a i DiffServ
   * 4.4.a ii CoS and DSCP Mapping
@@ -424,25 +435,25 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 ### 4.6 Network optimization
 
 * 4.6.a IP SLA
-  * [Cisco IOS-XE Docs - IP SLA](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipsla/configuration/xe-16-10/sla-xe-16-10-book.html)
+  * 🗒️ [Cisco IOS-XE Docs - IP SLA](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipsla/configuration/xe-16-10/sla-xe-16-10-book.html)
   * 4.6.a i ICMP probes
   * 4.6.a ii UDP probes
   * 4.6.a iii TCP probes
 * 4.6.b Tracking object
-  * [Cisco IOS-XE Docs - IP Application Services Configuration Guide Chapter: Configuring Enhanced Object Tracking](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipapp/configuration/xe-16-10/iap-xe-16-10-book/iap-eot.html)
+  * 🗒️ [Cisco IOS-XE Docs - IP Application Services Configuration Guide Chapter: Configuring Enhanced Object Tracking](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipapp/configuration/xe-16-10/iap-xe-16-10-book/iap-eot.html)
 * 4.6.c Flexible Netflow
-  * [Cisco IOS-XE Docs Flexible NetFlow Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/fnetflow/configuration/xe-16-10/fnf-xe-16-10-book.html)
+  * 🗒️ [Cisco IOS-XE Docs Flexible NetFlow Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/fnetflow/configuration/xe-16-10/fnf-xe-16-10-book.html)
 
 ### 4.7 Network operations
 
 * 4.7.a Traffic capture
   * 4.7.a i SPAN
   * 4.7.a ii RSPAN
-    * [Cisco IOS 15.2 Docs - Chapter: Configuring SPAN and RSPAN](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_0101000.html?bookSearch=true)
+    * 🗒️ [Cisco IOS 15.2 Docs - Chapter: Configuring SPAN and RSPAN](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_0101000.html?bookSearch=true)
   * 4.7.a iii ERSPAN
-    * [Cisco IOS-XE Docs - Chapter: Configuring ERSPAN](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/lanswitch/configuration/xe-16-10/lanswitch-xe-16-10-book/lnsw-conf-erspan.html?bookSearch=true) 
+    * 🗒️ [Cisco IOS-XE Docs - Chapter: Configuring ERSPAN](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/lanswitch/configuration/xe-16-10/lanswitch-xe-16-10-book/lnsw-conf-erspan.html?bookSearch=true) 
   * 4.7.a iv Embedded Packet Capture
-    * [Cisco IOS-XE Docs -  Chapter: Embedded Packet Capture Overview](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/epc/configuration/xe-16-10/epc-xe-16-10-book/nm-packet-capture-xe.html)
+    * 🗒️ [Cisco IOS-XE Docs -  Chapter: Embedded Packet Capture Overview](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/epc/configuration/xe-16-10/epc-xe-16-10-book/nm-packet-capture-xe.html)
     * 🗒️ [Cisco Docs - Embedded Packet Capture for Cisco IOS and IOS-XE Configuration Example](https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-embedded-packet-capture/116045-productconfig-epc-00.html)
 * 4.7.b Cisco IOS-XE troubleshooting tools
   * 4.7.b i Packet Trace
@@ -461,9 +472,9 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 ### 5.2 Automation and scripting
 
 * 5.2.a EEM applets
-  * [Cisco IOS-XE Docs - Embedded Event Manager Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/eem/configuration/xe-16-10/eem-xe-16-10-book.html)
+  * 🗒️ [Cisco IOS-XE Docs - Embedded Event Manager Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/eem/configuration/xe-16-10/eem-xe-16-10-book.html)
 * 5.2.b Guest shell
-  * [Cisco IOS-XE Docs - Programmability Configuration Guide Chapter: Guest Shell](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1610/b_1610_programmability_cg/guest_shell.html)
+  * 🗒️ [Cisco IOS-XE Docs - Programmability Configuration Guide Chapter: Guest Shell](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1610/b_1610_programmability_cg/guest_shell.html)
   * 5.2.b i Linux environment
   * 5.2.b ii CLI Python module
   * 5.2.b iii EEM Python module
@@ -477,7 +488,7 @@ This is a list of resources for CCIE Enterprise Infrastructure candidates. It is
 * 5.3.b Interaction with Cisco DNA Center API
   * 5.3.b i HTTP request (GET, PUT, POST) via Python requests library and Postman
 * 5.3.c Interaction with Cisco IOS XE API
-  * [Cisco IOS XE REST API Management Reference Guide](https://www.cisco.com/c/en/us/td/docs/routers/csr1000/software/restapi/restapi/RESTAPIintro.html)
+  * 🗒️ [Cisco IOS XE REST API Management Reference Guide](https://www.cisco.com/c/en/us/td/docs/routers/csr1000/software/restapi/restapi/RESTAPIintro.html)
   * 5.3.c i Via NETCONF/YANG using Python ncclient library
   * 5.3.c ii Via RESTCONF/YANG using Python requests library and Postman
 * 5.3.d Deploy and verify model-driven telemetry
