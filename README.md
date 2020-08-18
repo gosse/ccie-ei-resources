@@ -30,23 +30,26 @@ Legend:
 * [Cisco Design Zone (CVD)](https://www.cisco.com/c/en/us/solutions/design-zone.html)
 * [Cisco Communities](https://community.cisco.com/t5/other-network-architecture/bd-p/5981-discussions-other-network-infra)
 
-### 0.2 Training Courses
+### 0.2 Paid Training Resources and Bootcamps
 
+* [kbits.live](https://kbits.live/)
+* [Micronics CCIE EI v1.0](https://micronicstraining.com/events/ccie-enterprise-infrastructure-v1-o/)
+* [Orhan Ergun CCIE EI v1.0](https://orhanergun.net/ccie-enterprise-infrastructure-training/)
 * [Network Lessons](https://networklessons.com/cisco/ccie-enterprise-infrastructure)
 * [INE CCIE EI v1.0](https://my.ine.com/path/61f74429-8e0c-41b1-ba84-dd542c555df7)
 * [Boson NetSim](https://www.boson.com/certification/ccie-enterprise-infrastructure)
 * [Lab Minutes](http://www.labminutes.com/)
 
-### 0.3 Bootcamps 
-
-### 0.4 Labbing Software/Systems 
+### 0.3 Labbing Software/Systems 
 
 * [Cisco dCloud](https://dcloud.cisco.com/)
 * [Cisco Modeling Labs - Personal Edition (formally VIRL)](https://learningnetworkstore.cisco.com/cisco-modeling-labs-personal/cisco-cml-personal)
 * [Eve-NG](https://www.eve-ng.net/) 
 * [GNS3](https://www.gns3.com/)
 
-### 0.5 Blogroll 
+### 0.4 Blogroll 
+
+* Coming soon - add your own blog via a pull request! 
 
 ## 1.0 Network Infrastructure 
 
@@ -206,7 +209,7 @@ Legend:
   * 1.6.a ii IGMP Snooping, PIM Snooping
   * 1.6.a iii IGMP Querier
   * 1.6.a iv IGMP Filter
-  * 1.6.a v MLD
+  * 1.6.a v MLD 
 * 1.6.b Reverse path forwarding check
 * 1.6.c PIM
   * 1.6.c i Sparse Mode
@@ -494,19 +497,29 @@ Legend:
 
 * [Python requests library](https://requests.readthedocs.io/en/master/)
 * [Postman](https://www.postman.com/)
-
 * 5.3.a Interaction with vManage API
+  * 🗒️ [DevNet Learning Track - Cisco SD-WAN Programmability](https://developer.cisco.com/learning/tracks/sd-wan_programmability)
+  * 📺 [Pluralsight - Automating Cisco SD-WAN Operations Using APIs](https://app.pluralsight.com/library/courses/automating-cisco-sd-wan-operations-using-apis/table-of-contents)
   * 5.3.a i Python requests library and Postman
   * 5.3.a ii Monitoring endpoints
   * 5.3.a iii Configuration endpoints
 * 5.3.b Interaction with Cisco DNA Center API
+  * 📺 [Pluralsight - Automating Cisco DNA Center Operations Using APIs](https://app.pluralsight.com/library/courses/automating-cisco-dna-center-operations-using-apis/)
+  * 🗒️ [DevNet Learning Track - Programming the Digital Network Architecture (Cisco DNA)](https://developer.cisco.com/learning/tracks/programming-dna)
+  * 🗒️ [DevNet Learning Track - Cisco DNA Center Programmability](https://developer.cisco.com/learning/tracks/dnacenter-programmability)
   * 5.3.b i HTTP request (GET, PUT, POST) via Python requests library and Postman
 * 5.3.c Interaction with Cisco IOS XE API
   * 🗒️ [Cisco IOS XE REST API Management Reference Guide](https://www.cisco.com/c/en/us/td/docs/routers/csr1000/software/restapi/restapi/RESTAPIintro.html)
+  * 📺 [Pluralsight - Provisioning and Managing Networks Using Common Automation Tools](https://app.pluralsight.com/library/courses/provisioning-managing-networks-common-automation-tools/table-of-contents)
+  * 🗒️ [DevNet Learning Track - IOS XE Programmability](https://developer.cisco.com/learning/tracks/iosxe-programmability)
+  * 🗒️ [DevNet Learning Track - Network Programmability for Network Engineers](https://developer.cisco.com/learning/tracks/netprog-eng)
   * 5.3.c i Via NETCONF/YANG using Python ncclient library
   * 5.3.c ii Via RESTCONF/YANG using Python requests library and Postman
 * 5.3.d Deploy and verify model-driven telemetry
   * 🗒️ [Cisco Docs - Programmability Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1610/b_1610_programmability_cg/model_driven_telemetry.html)
+  * 🗒️ [DevNet Docs - Streaming Telemetry](https://developer.cisco.com/docs/ios-xe/#!streaming-telemetry-quick-start-guide)
+  * 🗒️ [DevNet Learning Labs - Introduction to Telemetry on IOS XE](https://developer.cisco.com/learning/modules/iosxe_telemetry/intro_telemetry_on_xe/step/1)
+  * 🗒️ [DevNet Learning Labs - Enabling Telemetry On IOS XE](https://developer.cisco.com/learning/modules/iosxe_telemetry/enabling_telemetry_on_iosxe/step/1)
   * 5.3.d i Configure on-change subscription using gRPC
 
 
