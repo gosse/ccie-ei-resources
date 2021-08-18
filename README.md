@@ -39,6 +39,7 @@ Legend:
 * [INE CCIE EI v1.0](https://my.ine.com/path/61f74429-8e0c-41b1-ba84-dd542c555df7)
 * [Boson NetSim](https://www.boson.com/certification/ccie-enterprise-infrastructure)
 * [Lab Minutes](http://www.labminutes.com/)
+* [Pluralsight](https://www.pluralsight.com)
 
 ### 0.3 Labbing Software/Systems 
 
@@ -46,6 +47,7 @@ Legend:
 * [Cisco Modeling Labs - Personal Edition (formally VIRL)](https://learningnetworkstore.cisco.com/cisco-modeling-labs-personal/cisco-cml-personal)
 * [Eve-NG](https://www.eve-ng.net/) 
 * [GNS3](https://www.gns3.com/)
+* [Rack Rental - Cloud My Lab](https://cloudmylab.com/ccieenterpriseinfrastucture/)
 
 ### 0.4 Blogroll 
 
@@ -267,7 +269,7 @@ Legend:
   * 📺 [Cisco Live - Designing for a Cloud-Ready Secure WAN Architecture - DLBTEC-50](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1588378944558001YIgm)
   * 📺 [Cisco Live - SD-WAN and Network Functions Service Chaining - DGTL-BRKENS-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1572617849119001peXV)
   * 📺 [Cisco Live - SD-WAN, deployment strategies, managing and monitoring - BRKRST-2519](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553037001JE2U)
-  * 📺 [Cisco Live - SD-WAN Enterprise Routing Platform Overview - DGTL-BRKARC-2102]
+  * 📺 [Cisco Live - SD-WAN Enterprise Routing Platform Overview - DGTL-BRKARC-2102](https://www.ciscolive.com/global/on-demand-library.html?search=DGTL-BRKARC-2102#/session/1571753540403001fdv8)
   * 📚 [CCNP Enterprise Design ENSLD 300-420 Official Cert Guide Chapter 11](https://learning.oreilly.com/library/view/ccnp-enterprise-design/9780136575160/)
   * 📚 [Software Defined Wide Area Networks (Aug 2020)](https://www.ciscopress.com/store/cisco-software-defined-wide-area-networks-designing-9780136533177)
 * 2.2.a Design a Cisco SD-WAN solution
