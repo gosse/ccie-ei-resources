@@ -209,6 +209,7 @@ Legend:
 * 1.6.a Layer 2 multicast
   * 1.6.a i IGMPv2, IGMPv3
   * 1.6.a ii IGMP Snooping, PIM Snooping
+    * 📝 [RFC 4541](https://datatracker.ietf.org/doc/html/rfc4541)
   * 1.6.a iii IGMP Querier
   * 1.6.a iv IGMP Filter
   * 1.6.a v MLD 
