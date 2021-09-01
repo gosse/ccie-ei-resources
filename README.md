@@ -224,6 +224,7 @@ Legend:
   * 1.6.c vii PIMv6 Anycast RP
   * 1.6.c viii IPv4 Anycast RP using MSDP
   * 1.6.c ix Multicast multipath
+    * [Load Splitting IP Multicast Traffic over ECMP](https://www.cisco.com/c/en/us/td/docs/ios/12_4t/ip_mcast/configuration/guide/mctlsplt.html)
 
 ## 2.0 Software Defined Infrastructure 
 
