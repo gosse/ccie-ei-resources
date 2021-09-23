@@ -19,7 +19,7 @@ Legend:
  
 ## 0.0 General 
 
-### 0.1 Cisco Resources 
+### 0.1 Cisco Resources
 
 * [Official Exam Topics](https://learningcontent.cisco.com/documents/exam-topics/CCIE+Enterprise+Infrastructure+(v1.0+RevA)+Exam+Topics.pdf)
 * [CCIE Enterprise Infrastructure Equipment and Software List](https://learningnetwork.cisco.com/s/article/ccie-enterprise-infrastructure-equipment-and-software-list)
@@ -84,6 +84,7 @@ Legend:
   * 1.1.d iii Load balancing
   * 1.1.d iv EtherChannel Misconfiguration Guard
 * 1.1.e Spanning- Tree Protocol
+  * 🗒️ [Cisco Docs - Understanding Rapid Spanning Tree Protocol (802.1w)](https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/24062-146.html)
   * 1.1.e i PVST+, Rapid PVST+, MST
   * 1.1.e ii Switch priority, port priority, path cost, STP timers
   * 1.1.e iii PortFast, BPDU Guard, BPDU Filter
@@ -101,8 +102,25 @@ Legend:
 * 1.2.e VRF aware routing with any routing protocol
 * 1.2.f Route filtering with any routing protocol
 * 1.2.g Manual summarization with any routing protocol
+  * 🗒️ [IP Routing: EIGRP Configuration Guide, Cisco IOS XE Gibraltar 16.12.x - Route Summarization](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_eigrp/configuration/xe-16-12/ire-xe-16-12-book/ire-enhanced-igrp.html#GUID-5EC23579-53DC-4AC4-AED4-9C4748965BD8)
+  * 🗒️ [IP Routing: EIGRP Configuration Guide, Cisco IOS XE Gibraltar 16.12.x - Configuring Summary Addresses](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_eigrp/configuration/xe-16-12/ire-xe-16-12-book/ip6-route-eigrp-xe.html#GUID-84817AC5-D58C-4C83-9FC4-0434A46CA5FA)
+  * 🗒️ [IP Routing: OSPF Configuration Guide, Cisco IOS XE Gibraltar 16.12.x- Configuring Route Summarization Between OSPF Areas](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16-12/iro-xe-16-12-book/iro-cfg.html#GUID-3507B8ED-037F-465D-AFEE-F3543EE65692)
+  * 🗒️ [IP Routing: BGP Configuration Guide, Cisco IOS XE Gibraltar 16.12.x  - BGP Route Aggregation](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_bgp/configuration/xe-16-12/irg-xe-16-12-book/configuring-a-basic-bgp-network.html#GUID-6DDE6391-682B-4A6F-8659-149272213871)
+  * 🗒️ [Understanding Route Aggregation in BGP](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/5441-aggregation.html#aggregatingwithouttheassetargument)
 * 1.2.h Redistribution between any pair of routing protocols
+  * 🗒️ [Cisco Troubleshooting TechNote - Redistributing Routing Protocols](https://www.cisco.com/c/en/us/support/docs/ip/enhanced-interior-gateway-routing-protocol-eigrp/8606-redist.html)
+  * 🗒️ [Cisco Troubleshooting TechNote - Understanding Redistribution of OSPF Routes into BGP](https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/5242-bgp-ospf-redis.html)
 * 1.2.i Routing protocol authentication
+  * [Managing Authentication Keys](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_pi/configuration/xe-16-12/iri-xe-16-12-book/iri-iprouting.html#GUID-121832C5-C558-4B9D-AEDB-4DA6AAE1B5FA)
+  * [IP EIGRP Route Authentication](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_eigrp/configuration/xe-16-12/ire-xe-16-12-book/ire-rte-auth.html)
+  * [IPv6 EIGRP - Configuring EIGRP Route Authentication](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_eigrp/configuration/xe-16-12/ire-xe-16-12-book/ip6-route-eigrp-xe.html#GUID-2ED9BBAC-0271-4361-B486-F060BB1D4096)
+  * [EIGRP/SAF HMAC-SHA-256 Authentication](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_eigrp/configuration/xe-16-12/ire-xe-16-12-book/ire-sha-256.html)
+  * [IP Routing: OSPF Configuration Guide, Cisco IOS XE Gibraltar 16.12.x - Configuring Interface Parameters](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16-12/iro-xe-16-12-book/iro-cfg.html#GUID-4AABEB56-2125-488B-B5A4-A5650F3159BB)
+  * [OSPFv2 Cryptographic Authentication](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16-12/iro-xe-16-12-book/iro-ospfv2-crypto-authen-xe.html)
+  * [IPv6 Routing: OSPFv3 Authentication Support with IPsec](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16-12/iro-xe-16-12-book/ip6-route-ospfv3-auth-ipsec.html#GUID-BCDA2C85-53CA-4400-B6D9-C2A908AD87B8)
+  * [OSPFv3 Authentication Trailer](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16-12/iro-xe-16-12-book/iro-ospfv3-authtrailer.html)
+  * [TCP Authentication Option](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_pi/configuration/xe-16-12/iri-xe-16-12-book/tcp-ao.html)
+  * [BGP Support for TCP Authentication Option](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_bgp/configuration/xe-16-12/irg-xe-16-12-book/bgp-support-for-TCP-AO.html)
 * 1.2.j Bidirectional Forwarding Detection
   * 🗒️ [Cisco Docs - IP Routing: BFD Configuration Guide, Cisco IOS XE Gibraltar 16.12.x](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_bfd/configuration/xe-16-12/irb-xe-16-12-book.html)
 
@@ -222,6 +240,7 @@ Legend:
   * 1.6.c v Source-Specific Multicast
   * 1.6.c vi Multicast boundary, RP announcement filter
   * 1.6.c vii PIMv6 Anycast RP
+    * [IP Multicast: PIM Configuration Guide, Cisco IOS XE Gibraltar 16.12.x | Chapter: Configuring Basic IP Multicast in IPv6 Networks](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipmulti_pim/configuration/xe-16-12/imc-pim-xe-16-12-book/imc-basic-ipv6.html)
   * 1.6.c viii IPv4 Anycast RP using MSDP
   * 1.6.c ix Multicast multipath
     * [Load Splitting IP Multicast Traffic over ECMP](https://www.cisco.com/c/en/us/td/docs/ios/12_4t/ip_mcast/configuration/guide/mctlsplt.html)
@@ -320,6 +339,7 @@ Legend:
   * 3.2.a ii IPsec/IKEv2 using pre-shared key
   * 3.2.a iii Per-Tunnel QoS
     * 🗒️ [Cisco Docs - DMVPN - Per-Tunnel QoS](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_dmvpn/configuration/15-mt/sec-conn-dmvpn-15-mt-book/sec-conn-dmvpn-per-tunnel-qos.html)
+    * 🗒️ [Networking with Fish:  Playing in the Lab: DMVPN and Per-Tunnel QoS](https://www.networkingwithfish.com/playing-in-the-lab-dmvpn-and-per-tunnel-qos/)
 * 3.2.b Identify use-cases for FlexVPN
   * 🗒️ [Cisco Docs - FlexVPN and Internet Key Exchange Version 2 Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_ike2vpn/configuration/xe-16-12/sec-flex-vpn-xe-16-12-book.html)
   * 📺 [Cisco Live - FlexVPN](https://www.ciscolive.com/global/on-demand-library.html?search=Flexvpn#/)
@@ -348,7 +368,7 @@ Legend:
   * 4.2.a ii Storm control
     * 🗒️ [Cisco Docs - Chapter: Configuring Port-Based Traffic Control](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swtrafc.html)
   * 4.2.a iii DHCP Snooping, DHCP option 82
-    * 🗒️ [Cisco Docs - Chapter: Configuring DHCP Features and IP Source Guard ](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swdhcp82.html)
+    * 🗒️ [Cisco Docs - Chapter: Configuring DHCP Features and IP Source Guard](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swdhcp82.html)
   * 4.2.a iv IP Source 
     * 🗒️ [Cisco Docs - Chapter: Configuring DHCP Features and IP Source Guard](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swdhcp82.html)
   * 4.2.a v Dynamic ARP Inspection
@@ -361,7 +381,7 @@ Legend:
   * 4.2.b i IPv6 Traffic Filters
   * 4.2.b ii IPv4 Access Control Lists
     * 🗒️ [Cisco Docs - Security Configuration Guide: Access Control Lists](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_data_acl/configuration/xe-16-10/sec-data-acl-xe-16-10-book.html)
-    * 🗒️ [Cisco Docs - Chapter: Information about Network Security with ACLs ](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_0101101.html)
+    * 🗒️ [Cisco Docs - Chapter: Information about Network Security with ACLs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_0101101.html)
   * 4.2.b iii Unicast Reverse Path Forwarding
 * 4.2.c IPv6 infrastructure security features
   * 🗒️ [Cisco Docs - IPv6 First-Hop Security Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipv6_fhsec/configuration/xe-16-10/ip6f-xe-16-10-book/ip6-snooping.html)
@@ -374,7 +394,7 @@ Legend:
   * 4.2.c vi Source Guard
 * 4.2.d IEEE 802.1X Port-Based Authentication
   * TODO: add IOS-XE docs
-  * 🗒️ [Cisco Docs - Chapter: Configuring IEEE 802.1X Port-Based Authentication ](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_8021x/configuration/15-mt/sec-user-8021x-15-mt-book/config-ieee-802x-pba.html)
+  * 🗒️ [Cisco Docs - Chapter: Configuring IEEE 802.1X Port-Based Authentication](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_8021x/configuration/15-mt/sec-user-8021x-15-mt-book/config-ieee-802x-pba.html)
   * 🗒️ [Cisco Docs - Chapter: Configuring IEEE 802.1x Port-Based Authentication](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_01010.html)
   * 4.2.d i Device roles, port states
   * 4.2.d ii Authentication process
@@ -420,7 +440,7 @@ Legend:
   * 4.5.a i HSRP, GLBP, VRRP
   * 4.5.a ii Redundancy using IPv6 RS/RA
 * 4.5.b Network Time Protocol
-  * 🗒️ [Cisco Docs - Chapter: Network Time Protocol ](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/bsm/configuration/xe-16/bsm-xe-16-book/bsm-time-calendar-set.html)
+  * 🗒️ [Cisco Docs - Chapter: Network Time Protocol](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/bsm/configuration/xe-16/bsm-xe-16-book/bsm-time-calendar-set.html)
   * 4.5.b i Master, client
   * 4.5.b ii Authentication
 * 4.5.c DHCP on Cisco IOS
@@ -464,7 +484,7 @@ Legend:
     * 🗒️ [Cisco Docs - Embedded Packet Capture for Cisco IOS and IOS-XE Configuration Example](https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-embedded-packet-capture/116045-productconfig-epc-00.html)
 * 4.7.b Cisco IOS-XE troubleshooting tools
   * 4.7.b i Packet Trace
-    * 🗒️ [Cisco Docs - Troubleshooting Guide, Cisco IOS XE Release 3S (Cisco ASR 1000) ](https://www.cisco.com/c/en/us/td/docs/routers/asr1000/troubleshooting/guide/Tblshooting-xe-3s-asr-1000-book.html)
+    * 🗒️ [Cisco Docs - Troubleshooting Guide, Cisco IOS XE Release 3S (Cisco ASR 1000)](https://www.cisco.com/c/en/us/td/docs/routers/asr1000/troubleshooting/guide/Tblshooting-xe-3s-asr-1000-book.html)
     * 🗒️ [Cisco Docs - IOS-XE Datapath Packet Trace Feature](https://www.cisco.com/c/en/us/support/docs/content-networking/adaptive-session-redundancy-asr/117858-technote-asr-00.html)
   * 4.7.b ii Conditional debugger (debug platform condition)
 
