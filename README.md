@@ -129,7 +129,9 @@ Legend:
 * 1.3 EIGRP 
   * 🗒️ [Cisco Docs - IP Routing: EIGRP Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_eigrp/configuration/xe-16-12/ire-xe-16-12-book.html)
   * 📺 [Cisco Live - EIGRP](https://www.ciscolive.com/global/on-demand-library.html?search=EIGRP#/)
-  * 📺 [Cisco Live - EIGRP Deployment in Modern Networks](https://www.ciscolive.com/global/on-demand-library.html?search=BRKRST-2336#/)
+    * 📺 [Cisco Live - EIGRP Deployment in Modern Networks](https://www.ciscolive.com/global/on-demand-library.html?search=BRKRST-2336#/)
+    * 📺 [Cisco Live - Intro to EIGRP](https://www.ciscolive.com/global/on-demand-library.html#/session/1576111569617001f7vL)
+    * 📺 [Cisco Live - Troubleshooting EIGRP Networks](https://www.ciscolive.com/global/on-demand-library.html#/session/1542224322901001ryRy)
 * 1.3.a Adjacencies
 * 1.3.b Best path selection
   * 1.3.b i RD, FD, FC, successor, feasible successor
