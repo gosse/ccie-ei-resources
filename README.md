@@ -59,8 +59,6 @@ Legend:
 * 🗒️ [Cisco Docs - Software Configuration Guide, Cisco IOS Release 15.2(4)E](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg.html)
 
 ### 1.1 Switched Campus 
-
-* 1.1 Switched Campus
   * 🗒️ [Cisco IOS-XE Docs - LAN Switching Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/lanswitch/configuration/xe-16-12/lanswitch-xe-16-12-book.html)
 * 1.1.a Switch administration
   * 1.1.a i Managing MAC address table
@@ -91,8 +89,6 @@ Legend:
   * 1.1.e iv Loop Guard, Root Guard
 
 ### 1.2 Routing Concepts
-
-* 1.2 Routing Concepts
   * 🗒️ [Cisco Docs - IP Routing](https://www.cisco.com/c/en/us/tech/ip/ip-routing/index.html)
   * 🗒️ [Cisco Docs - IP Routing: Protocol-Independent Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_pi/configuration/xe-16-12/iri-xe-16-12-book.html)
 * 1.2.a Administrative distance
@@ -126,12 +122,11 @@ Legend:
 
 ### 1.3 EIGRP
 
-* 1.3 EIGRP 
-  * 🗒️ [Cisco Docs - IP Routing: EIGRP Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_eigrp/configuration/xe-16-12/ire-xe-16-12-book.html)
-  * 📺 [Cisco Live - EIGRP](https://www.ciscolive.com/global/on-demand-library.html?search=EIGRP#/)
-    * 📺 [Cisco Live - EIGRP Deployment in Modern Networks](https://www.ciscolive.com/global/on-demand-library.html?search=BRKRST-2336#/)
-    * 📺 [Cisco Live - Intro to EIGRP](https://www.ciscolive.com/global/on-demand-library.html#/session/1576111569617001f7vL)
-    * 📺 [Cisco Live - Troubleshooting EIGRP Networks](https://www.ciscolive.com/global/on-demand-library.html#/session/1542224322901001ryRy)
+* 🗒️ [Cisco Docs - IP Routing: EIGRP Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_eigrp/configuration/xe-16-12/ire-xe-16-12-book.html)
+* 📺 [Cisco Live - EIGRP](https://www.ciscolive.com/global/on-demand-library.html?search=EIGRP#/)
+* 📺 [Cisco Live - EIGRP Deployment in Modern Networks](https://www.ciscolive.com/global/on-demand-library.html?search=BRKRST-2336#/)
+* 📺 [Cisco Live - Intro to EIGRP](https://www.ciscolive.com/global/on-demand-library.html#/session/1576111569617001f7vL)
+* 📺 [Cisco Live - Troubleshooting EIGRP Networks](https://www.ciscolive.com/global/on-demand-library.html#/session/1542224322901001ryRy)
 * 1.3.a Adjacencies
 * 1.3.b Best path selection
   * 1.3.b i RD, FD, FC, successor, feasible successor
@@ -156,13 +151,12 @@ Legend:
 
 ### 1.4 OSPF (v2 and v3)
 
-* 1.4 OSPF 
-  * 📝 [RFC 2328 OSPF Version 2](https://tools.ietf.org/html/rfc2328)
-  * 📝 [RFC 5340 OSPF for IPv6](https://tools.ietf.org/html/rfc5340)
-  * 📚 [OSPF - anatomy of an Internet Routing Protocol]()
-  * 📚 [Cisco IP Routing - Packet Forwarding and Intra-domain Routing Protocols]()
-  * 📚 [Routing TCP/IP Vol. 1]()
-  * 🗒️ [Cisco IOS-XE Docs - OSPF Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16-10/iro-xe-16-10-book.html)
+* 📝 [RFC 2328 OSPF Version 2](https://tools.ietf.org/html/rfc2328)
+* 📝 [RFC 5340 OSPF for IPv6](https://tools.ietf.org/html/rfc5340)
+* 📚 [OSPF - anatomy of an Internet Routing Protocol]()
+* 📚 [Cisco IP Routing - Packet Forwarding and Intra-domain Routing Protocols]()
+* 📚 [Routing TCP/IP Vol. 1]()
+* 🗒️ [Cisco IOS-XE Docs - OSPF Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-16-10/iro-xe-16-10-book.html)
 * 1.4.a Adjacencies
 * 1.4.b Network types, area types
 * 1.4.c Path preference
@@ -180,14 +174,13 @@ Legend:
 
 ### 1.5 BGP
 
-* 1.5 BGP 
-  * 📺 [Google Talks - BGP at 18](https://www.youtube.com/watch?v=_Mn4kKVBdaM)
-  * 📺 [Cisco Live BRKRST-3321 Scaling BGP](https://www.ciscolive.com/c/global/on-demand-library.html?search=BRKRST-3321#/)
-  * 📚 [Internet Routing Architectures](https://learning.oreilly.com/library/view/internet-routing-architectures/157870233X/)
-  * 📚 [Routing TCP/IP, Vol II](https://learning.oreilly.com/library/view/routing-tcpip-volume/9780134192772/)
-  * 📚 [Practical BGP](https://learning.oreilly.com/library/view/practical-bgp/0321127005/)
-  * 📚 [Optimal Routing Design](https://learning.oreilly.com/library/view/optimal-routing-design/1587051877/)
-  * 🗒️ [Cisco IOS-XE Docs - IP Routing: BGP Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_bgp/configuration/xe-16-10/irg-xe-16-10-book.html)
+* 📺 [Google Talks - BGP at 18](https://www.youtube.com/watch?v=_Mn4kKVBdaM)
+* 📺 [Cisco Live BRKRST-3321 Scaling BGP](https://www.ciscolive.com/c/global/on-demand-library.html?search=BRKRST-3321#/)
+* 📚 [Internet Routing Architectures](https://learning.oreilly.com/library/view/internet-routing-architectures/157870233X/)
+* 📚 [Routing TCP/IP, Vol II](https://learning.oreilly.com/library/view/routing-tcpip-volume/9780134192772/)
+* 📚 [Practical BGP](https://learning.oreilly.com/library/view/practical-bgp/0321127005/)
+* 📚 [Optimal Routing Design](https://learning.oreilly.com/library/view/optimal-routing-design/1587051877/)
+* 🗒️ [Cisco IOS-XE Docs - IP Routing: BGP Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_bgp/configuration/xe-16-10/irg-xe-16-10-book.html)
 * 1.5.a IBGP and EBGP peer relationships
   * 1.5.a i Peer-group/update-group, template
   * 1.5.a ii Active, passive
@@ -218,14 +211,13 @@ Legend:
 
 ### 1.6 Multicast
 
-* 1.6 Multicast
-  * 🗒️ [Cisco IOS-XE Docs - PIM Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipmulti_pim/configuration/xe-16-10/imc-pim-xe-16-10-book.html)
-  * 🗒️ [Cisco IOS-XE Docs - IGMP configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipmulti_igmp/configuration/xe-16-10/imc-igmp-xe-16-10-book.html)
-  * 📚 [Routing TCP/IP, Vol II](https://learning.oreilly.com/library/view/routing-tcpip-volume/9780134192772/)
-  * 📚 [Developing IP Multicast Networks](https://www.ciscopress.com/store/developing-ip-multicast-networks-volume-i-paperback-9781587142895)
-  * 📚 [Interdomain Multicast Routing: Practical Juniper Networks and Cisco Systems Solutions](https://learning.oreilly.com/library/view/interdomain-multicast-routing/0201746123/)
-  * 📺 [Introduction to IP Multicast - DGTL-BRKIPM-1261](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153548896001JvK2)
-  * 📺 [Multicast Troubleshooting - BRKIPM-2264](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153548978001J6Mh)
+* 🗒️ [Cisco IOS-XE Docs - PIM Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipmulti_pim/configuration/xe-16-10/imc-pim-xe-16-10-book.html)
+* 🗒️ [Cisco IOS-XE Docs - IGMP configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipmulti_igmp/configuration/xe-16-10/imc-igmp-xe-16-10-book.html)
+* 📚 [Routing TCP/IP, Vol II](https://learning.oreilly.com/library/view/routing-tcpip-volume/9780134192772/)
+* 📚 [Developing IP Multicast Networks](https://www.ciscopress.com/store/developing-ip-multicast-networks-volume-i-paperback-9781587142895)
+* 📚 [Interdomain Multicast Routing: Practical Juniper Networks and Cisco Systems Solutions](https://learning.oreilly.com/library/view/interdomain-multicast-routing/0201746123/)
+* 📺 [Introduction to IP Multicast - DGTL-BRKIPM-1261](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153548896001JvK2)
+* 📺 [Multicast Troubleshooting - BRKIPM-2264](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153548978001J6Mh)
 * 1.6.a Layer 2 multicast
   * 1.6.a i IGMPv2, IGMPv3
   * 1.6.a ii IGMP Snooping, PIM Snooping
@@ -251,18 +243,17 @@ Legend:
 
 ### 2.1 Cisco SD Access
 
-* 2.1 Cisco SD Access
-  * 🗒️ [Cisco Docs - DNA Assurance User Guide 1.3.1](https://www.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/dna-center-assurance/1-3-1-0/b_cisco_dna_assurance_1_3_1_0_ug.html)
-  * 📺 [Cisco Live - Cisco DNA Center - Network operation and cross architecture integration with IT Service Management - DGTL-BRKNMS-2458](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153550070001JR6j)
-  * 📺 [Cisco Live - Cisco DNA Center: The evolution from traditional Management to Intent-Based Automation and Assurance - DGTL-BRKNMS-2031](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549708001JKkm)
-  * 📺 [Cisco Live - DNA-C Design and Policy - DEMCOC-602](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057454471001bDUv)
-  * 📺 [Cisco Live - Policy and Segmentation with Cisco DNA Center - DEMCRS-601](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057460045001bOTB)
-  * 📺 [Cisco Live - SD-Access Fabric, Why is My Salsa So Tasty? How SD-Access Solves Enterprise Challenges - DLBTEC-51](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/15892240689180019WZ6)
-  * 📺 [Cisco Live - SD Access : Troubleshooting the fabric - DGTL-BRKARC-2020](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153537677001Jo5z)
-  * 🗒️ [Cisco CVD - Software Defined Access Design Guide](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/CVD-Software-Defined-Access-Design-Sol1dot2-2018DEC.pdf)
-  * 🗒️ [Cisco CVD - SD Access Deployment Guide](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/CVD-Software-Defined-Access-Segmentation-Design-Guide-2018MAY.pdf)
-  * 📚 [Cisco Software-Defined Access (August 2020)](https://learning.oreilly.com/library/view/cisco-software-defined-access/9780136448341/)
-  * 📚 [Cisco Digital Network Architecture: Intent-based Networking for the Enterprise](https://learning.oreilly.com/library/view/cisco-digital-network/9780134723952/)
+* 🗒️ [Cisco Docs - DNA Assurance User Guide 1.3.1](https://www.cisco.com/c/en/us/td/docs/cloud-systems-management/network-automation-and-management/dna-center-assurance/1-3-1-0/b_cisco_dna_assurance_1_3_1_0_ug.html)
+* 📺 [Cisco Live - Cisco DNA Center - Network operation and cross architecture integration with IT Service Management - DGTL-BRKNMS-2458](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153550070001JR6j)
+* 📺 [Cisco Live - Cisco DNA Center: The evolution from traditional Management to Intent-Based Automation and Assurance - DGTL-BRKNMS-2031](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549708001JKkm)
+* 📺 [Cisco Live - DNA-C Design and Policy - DEMCOC-602](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057454471001bDUv)
+* 📺 [Cisco Live - Policy and Segmentation with Cisco DNA Center - DEMCRS-601](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1590057460045001bOTB)
+* 📺 [Cisco Live - SD-Access Fabric, Why is My Salsa So Tasty? How SD-Access Solves Enterprise Challenges - DLBTEC-51](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/15892240689180019WZ6)
+* 📺 [Cisco Live - SD Access : Troubleshooting the fabric - DGTL-BRKARC-2020](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153537677001Jo5z)
+* 🗒️ [Cisco CVD - Software Defined Access Design Guide](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/CVD-Software-Defined-Access-Design-Sol1dot2-2018DEC.pdf)
+* 🗒️ [Cisco CVD - SD Access Deployment Guide](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/CVD-Software-Defined-Access-Segmentation-Design-Guide-2018MAY.pdf)
+* 📚 [Cisco Software-Defined Access (August 2020)](https://learning.oreilly.com/library/view/cisco-software-defined-access/9780136448341/)
+* 📚 [Cisco Digital Network Architecture: Intent-based Networking for the Enterprise](https://learning.oreilly.com/library/view/cisco-digital-network/9780134723952/)
 * 2.1.a Design a Cisco SD Access solution
   * 2.1.a i Underlay network (IS-IS, manual/PnP)
   * 2.1.a ii Overlay fabric design (LISP, VXLAN, Cisco TrustSec)
@@ -281,20 +272,19 @@ Legend:
 
 ### 2.2 Cisco SD-WAN
 
-* 2.2 Cisco SD-WAN
-  * 🗒️ [Cisco Docs - vManage How Tos](https://sdwan-docs.cisco.com/Product_Documentation/vManage_How-Tos/Configuration)
-  * 🗒️ [Cisco Docs - Device Configuration Template](https://sdwan-docs.cisco.com/Product_Documentation/vManage_How-Tos/Configuration/Create_a_Device_Configuration_Template)
-  * 🗒️ [Cisco Design Zone for Branch, WAN, and Internet Edge](https://www.cisco.com/c/en/us/solutions/design-zone/networking-design-guides/branch-wan-edge.html)
-  * 🗒️ [Cisco SD-WAN Design Guide](https://www.cisco.com/c/en/us/td/docs/solutions/CVD/SDWAN/cisco-sdwan-design-guide.html)
-  * 📺 [Cisco Live - SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search=SD-WAN)
-  * 📺 [Cisco Live - Building and Using Policies with Cisco SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553280001Jhr9)
-  * 📺 [Cisco Live - Delivering Cisco Next Generation SD-WAN with Viptela - BRKCRS-2110](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153542774001Jftj)
-  * 📺 [Cisco Live - Designing for a Cloud-Ready Secure WAN Architecture - DLBTEC-50](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1588378944558001YIgm)
-  * 📺 [Cisco Live - SD-WAN and Network Functions Service Chaining - DGTL-BRKENS-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1572617849119001peXV)
-  * 📺 [Cisco Live - SD-WAN, deployment strategies, managing and monitoring - BRKRST-2519](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553037001JE2U)
-  * 📺 [Cisco Live - SD-WAN Enterprise Routing Platform Overview - DGTL-BRKARC-2102](https://www.ciscolive.com/global/on-demand-library.html?search=DGTL-BRKARC-2102#/session/1571753540403001fdv8)
-  * 📚 [CCNP Enterprise Design ENSLD 300-420 Official Cert Guide Chapter 11](https://learning.oreilly.com/library/view/ccnp-enterprise-design/9780136575160/)
-  * 📚 [Software Defined Wide Area Networks (Aug 2020)](https://www.ciscopress.com/store/cisco-software-defined-wide-area-networks-designing-9780136533177)
+* 🗒️ [Cisco Docs - vManage How Tos](https://sdwan-docs.cisco.com/Product_Documentation/vManage_How-Tos/Configuration)
+* 🗒️ [Cisco Docs - Device Configuration Template](https://sdwan-docs.cisco.com/Product_Documentation/vManage_How-Tos/Configuration/Create_a_Device_Configuration_Template)
+* 🗒️ [Cisco Design Zone for Branch, WAN, and Internet Edge](https://www.cisco.com/c/en/us/solutions/design-zone/networking-design-guides/branch-wan-edge.html)
+* 🗒️ [Cisco SD-WAN Design Guide](https://www.cisco.com/c/en/us/td/docs/solutions/CVD/SDWAN/cisco-sdwan-design-guide.html)
+* 📺 [Cisco Live - SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search=SD-WAN)
+* 📺 [Cisco Live - Building and Using Policies with Cisco SD-WAN](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553280001Jhr9)
+* 📺 [Cisco Live - Delivering Cisco Next Generation SD-WAN with Viptela - BRKCRS-2110](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153542774001Jftj)
+* 📺 [Cisco Live - Designing for a Cloud-Ready Secure WAN Architecture - DLBTEC-50](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1588378944558001YIgm)
+* 📺 [Cisco Live - SD-WAN and Network Functions Service Chaining - DGTL-BRKENS-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1572617849119001peXV)
+* 📺 [Cisco Live - SD-WAN, deployment strategies, managing and monitoring - BRKRST-2519](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153553037001JE2U)
+* 📺 [Cisco Live - SD-WAN Enterprise Routing Platform Overview - DGTL-BRKARC-2102](https://www.ciscolive.com/global/on-demand-library.html?search=DGTL-BRKARC-2102#/session/1571753540403001fdv8)
+* 📚 [CCNP Enterprise Design ENSLD 300-420 Official Cert Guide Chapter 11](https://learning.oreilly.com/library/view/ccnp-enterprise-design/9780136575160/)
+* 📚 [Software Defined Wide Area Networks (Aug 2020)](https://www.ciscopress.com/store/cisco-software-defined-wide-area-networks-designing-9780136533177)
 * 2.2.a Design a Cisco SD-WAN solution
   * 2.2.a i Orchestration plane (vBond, NAT)
   * 2.2.a ii Management plane (vManage)
@@ -314,11 +304,10 @@ Legend:
 
 ### 3.1 MPLS
 
-* 3.1 MPLS 
-  * 🗒️ [Cisco Docs - MPLS Label Distribution Protocol Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_ldp/configuration/xe-16/mp-ldp-xe-16-book.html)
-  * 🗒️ [Cisco Docs - MPLS: Layer 3 VPNs Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_l3_vpns/configuration/xe-16-12/mp-l3-vpns-xe-16-12-book.html)
-  * 📺 [Cisco Live - MPLS](https://www.ciscolive.com/global/on-demand-library.html?search=MPLS#/)
-  * 📺 [Cisco Live - Introduction to MPLS - DGTL-BRKMPL-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549100001JJkV)
+* 🗒️ [Cisco Docs - MPLS Label Distribution Protocol Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_ldp/configuration/xe-16/mp-ldp-xe-16-book.html)
+* 🗒️ [Cisco Docs - MPLS: Layer 3 VPNs Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_l3_vpns/configuration/xe-16-12/mp-l3-vpns-xe-16-12-book.html)
+* 📺 [Cisco Live - MPLS](https://www.ciscolive.com/global/on-demand-library.html?search=MPLS#/)
+* 📺 [Cisco Live - Introduction to MPLS - DGTL-BRKMPL-1100](https://www.ciscolive.com/global/on-demand-library.html?search.event=ciscoliveus2020&cid=20200618atttu&ccid=cc001205&dtid=oemrft001460&fix=0#/session/1573153549100001JJkV)
 * 3.1.a Operations
   * 3.1.a i Label stack, LSR, LSP
   * 3.1.a ii LDP
@@ -329,14 +318,13 @@ Legend:
   * 3.1.b iii Extranet (route leaking)
 
 ### 3.2 DMVPN
-
-* 3.2 DMVPN 
-  * 🗒️ [Cisco Docs - Dynamic Multipoint VPN Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_dmvpn/configuration/xe-16-12/sec-conn-dmvpn-xe-16-12-book.html)
-  * 📺 [Cisco Live - Demystifying DMVPN BRKSEC-3052](https://www.ciscolive.com/global/on-demand-library.html?search=dmvpn#/session/1484773617788001WfsN)
-  * 📺 [Cisco Live - DMVPN](https://www.ciscolive.com/global/on-demand-library.html?search=DMVPN#/)
-  * 📺 [Cisco Live -  Advanced Concepts of DMVPN BRKSEC-4054](https://www.ciscolive.com/c/global/on-demand-library.html?search=dmvpn#/session/1484773617075001W8sx)
+* 🗒️ [Cisco Docs - Dynamic Multipoint VPN Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_dmvpn/configuration/xe-16-12/sec-conn-dmvpn-xe-16-12-book.html)
+* 📺 [Cisco Live - Demystifying DMVPN BRKSEC-3052](https://www.ciscolive.com/global/on-demand-library.html?search=dmvpn#/session/1484773617788001WfsN)
+* 📺 [Cisco Live - DMVPN](https://www.ciscolive.com/global/on-demand-library.html?search=DMVPN#/)
+* 📺 [Cisco Live -  Advanced Concepts of DMVPN BRKSEC-4054](https://www.ciscolive.com/c/global/on-demand-library.html?search=dmvpn#/session/1484773617075001W8sx)
 * 3.2.a Troubleshoot DMVPN Phase 3 with dual-hub
   * 📺 [Cisco Live -  Troubleshooting Dynamic Multipoint VPN (DMVPN) BRKSEC-3052](https://www.ciscolive.com/global/on-demand-library.html?search=dmvpn#/session/1454486436572001QYT4)
+  * [Cisco Docs - Most Common DMVPN Troubleshooting Solutions](https://www.cisco.com/c/en/us/support/docs/security/dynamic-multipoint-vpn-dmvpn/111976-dmvpn-troubleshoot-00.html)
   * 3.2.a i NHRP
   * 3.2.a ii IPsec/IKEv2 using pre-shared key
   * 3.2.a iii Per-Tunnel QoS
@@ -351,6 +339,8 @@ Legend:
   * 3.2.b i Site-to-site, Server, Client, Spoke-to-Spoke
   * 3.2.b ii IPsec/IKEv2 using pre-shared key
   * 3.2.b iii MPLS over FlexVPN
+    * [FlexVPN and Internet Key Exchange Version 2 Configuration Guide, Cisco IOS Release 15M&T - Configuring MPLS over FlexVPN](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_ike2vpn/configuration/15-mt/sec-flex-vpn-15-mt-book/sec-cfg-mpls-flex.html)
+    * [Dynamic Multipoint VPN Configuration Guide, Cisco IOS XE Gibraltar 16.12.x - Configuring MPLS over DMVPN](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_dmvpn/configuration/xe-16-12/sec-conn-dmvpn-xe-16-12-book/sec-conn-dmvpn-xe-configure.html)
 
 
 ## 4.0 Infrastructure Security and Services 
@@ -404,8 +394,6 @@ Legend:
 
 
 ### 4.3 System Management
-
-* 4.3 System Management 
   * 🗒️ [Cisco Docs - Basic System Management Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/bsm/configuration/xe-16/bsm-xe-16-book/bsm-basic-sys-manage.html)
 * 4.3.a Device management
   * 4.3.a i Console and VTY
@@ -421,8 +409,6 @@ Legend:
   * 4.3.c ii Timestamps
 
 ### 4.4 Quality of Service
-
-* 4.4 Quality of Service
   * 🗒️ [Cisco Docs - QoS Modular QoS Command-Line Interface Configuration Guide, Cisco IOS XE Gibraltar 16.12.x](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/qos_mqc/configuration/xe-16-12/qos-mqc-xe-16-12-book.html)
   * 📺 [Cisco Live - QoS](https://www.ciscolive.com/global/on-demand-library.html?search=qos#/)
 * 4.4.a End to end L3 QoS using MQC
