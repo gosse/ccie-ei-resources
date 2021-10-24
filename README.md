@@ -350,62 +350,80 @@ Legend:
 * 4.1.a Control plane policing and protection
   * 🗒️ [Cisco Docs - QoS: Policing and Shaping Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/qos_plcshp/configuration/xe-16-12/qos-plcshp-xe-16-12-book/qos-plcshp-ctrl-pln-plc.html)
 * 4.1.b AAA
-  * 🗒️ [Cisco Docs - Authentication Authorization and Accounting Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_aaa/configuration/xe-16-10/sec-usr-aaa-xe-16-10-book.html)
+  * 🗒️ [Cisco Docs - Authentication Authorization and Accounting Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_aaa/configuration/xe-16-12/sec-usr-aaa-xe-16-12-book.html)
+  * [Cisco Docs - Security Configuration Guide, Cisco IOS XE Gibraltar 16.12.x - Configuring Control Plane Policing](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_control_plane_policing.html)
 
 ### 4.2 Network Security
 
 * 4.2.a Switch security features
+  * [Cisco Live - Attacks on Network Infrastructure](https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2019/pdf/BRKSEC-1032.pdf)
   * 4.2.a i VACL, PACL
-    * 🗒️ [Cisco Docs - Chapter: Configuring Network Security with ACLs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swacl.html)
+    * 🗒️ [Cisco Docs - C3750X - Chapter: Configuring Network Security with ACLs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swacl.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: IPv4 ACLs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_ipv4_acls.html)
   * 4.2.a ii Storm control
-    * 🗒️ [Cisco Docs - Chapter: Configuring Port-Based Traffic Control](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swtrafc.html)
+    * 🗒️ [Cisco Docs - C3750X - Chapter: Configuring Port-Based Traffic Control](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swtrafc.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Port-Based Traffic Control](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_port_based_traffic_control.html)
   * 4.2.a iii DHCP Snooping, DHCP option 82
-    * 🗒️ [Cisco Docs - Chapter: Configuring DHCP Features and IP Source Guard](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swdhcp82.html)
+    * 🗒️ [Cisco Docs - C3750X - Chapter: Configuring DHCP Features and IP Source Guard](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swdhcp82.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring DHCP](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/configuring_dhcp.html)
+    * [INE - Understanding DHCP Option 82](https://blog.ine.com/2009/07/22/understanding-dhcp-option-82)
   * 4.2.a iv IP Source 
-    * 🗒️ [Cisco Docs - Chapter: Configuring DHCP Features and IP Source Guard](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swdhcp82.html)
+    * 🗒️ [Cisco Docs - C3750X - Chapter: Configuring DHCP Features and IP Source Guard](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swdhcp82.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring IP Source Guard](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_ip_source_guard.html)
   * 4.2.a v Dynamic ARP Inspection
-    * 🗒️ [Cisco Docs - Chapter: Configuring Dynamic ARP Inspection](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swdynarp.html)
+    * 🗒️ [Cisco Docs - C3750X - Chapter: Configuring Dynamic ARP Inspection](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swdynarp.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Dynamic ARP Inspection](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_dynamic_arp_inspection.html)
   * 4.2.a vi Port Security
-    * 🗒️ [Cisco Docs - Chapter: Configuring Port-Based Traffic Control](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swtrafc.html)
+    * 🗒️ [Cisco Docs - C3750X - Chapter: Configuring Port-Based Traffic Control](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swtrafc.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Port Security](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/port_security.html) 
   * 4.2.a vii Private VLAN
-    * 🗒️ [Cisco Docs - Chapter: Configuring Private VLANs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swpvlan.html)
+    * 🗒️ [Cisco Docs - C3750X - Chapter: Configuring Private VLANs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-0_1_se/configuration/guide/3750xcg/swpvlan.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Private VLANs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/vlan/b_1612_vlan_9300_cg/configuring_private_vlans.html)
 * 4.2.b Router security features
   * 4.2.b i IPv6 Traffic Filters
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: IPv6 ACLs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_ipv6_acls.html)
   * 4.2.b ii IPv4 Access Control Lists
     * 🗒️ [Cisco Docs - Security Configuration Guide: Access Control Lists](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_data_acl/configuration/xe-16-10/sec-data-acl-xe-16-10-book.html)
     * 🗒️ [Cisco Docs - Chapter: Information about Network Security with ACLs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_0101101.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: IPv4 ACLs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_ipv4_acls.html)
   * 4.2.b iii Unicast Reverse Path Forwarding
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Unicast Reverse Path Forwarding](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/rtng/b_1612_rtng_9300_cg/configuring_unicast_reverse_path_forwarding.html)
+    * 🗒️ [Cisco Docs - Security Configuration Guide: Unicast Reverse Path Forwarding, Cisco IOS XE Gibraltor 16.12.x](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_data_urpf/configuration/xe-16-12/sec-data-urpf-xe-16-12-book/cfg-unicast-rpf.html)
 * 4.2.c IPv6 infrastructure security features
-  * 🗒️ [Cisco Docs - IPv6 First-Hop Security Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipv6_fhsec/configuration/xe-16-10/ip6f-xe-16-10-book/ip6-snooping.html)
-  * 🗒️ [Cisco Docs  - Configuring First Hop Security in IPv6](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_0110011.html?bookSearch=true#d307081e4854a1635)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring IPv6 First Hop Security](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_ipv6_first_hop_security.html)
+  * 🗒️ [Cisco Docs - C3750X - Configuring First Hop Security in IPv6](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_0110011.html?bookSearch=true#d307081e4854a1635)
   * 4.2.c i RA Guard
   * 4.2.c ii DHCP Guard
   * 4.2.c iii Binding table
   * 4.2.c iv Device tracking
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring SISF-Based Device Tracking](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_sisf_based_device_tracking.html)
   * 4.2.c v ND Inspection/Snooping
   * 4.2.c vi Source Guard
 * 4.2.d IEEE 802.1X Port-Based Authentication
-  * TODO: add IOS-XE docs
-  * 🗒️ [Cisco Docs - Chapter: Configuring IEEE 802.1X Port-Based Authentication](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_8021x/configuration/15-mt/sec-user-8021x-15-mt-book/config-ieee-802x-pba.html)
-  * 🗒️ [Cisco Docs - Chapter: Configuring IEEE 802.1x Port-Based Authentication](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_01010.html)
+  * 🗒️ [Cisco Docs - 15M&T - Chapter: Configuring IEEE 802.1X Port-Based Authentication](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_usr_8021x/configuration/15-mt/sec-user-8021x-15-mt-book/config-ieee-802x-pba.html)
+  * 🗒️ [Cisco Docs - 3750X - Chapter: Configuring IEEE 802.1x Port-Based Authentication](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_01010.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring IEEE 802.1x Port-Based Authentication](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/configuring_ieee_802_1x_port_based_authentication.html)
   * 4.2.d i Device roles, port states
   * 4.2.d ii Authentication process
   * 4.2.d iii Host modes
 
 
 ### 4.3 System Management
-  * 🗒️ [Cisco Docs - Basic System Management Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/bsm/configuration/xe-16/bsm-xe-16-book/bsm-basic-sys-manage.html)
+  * 🗒️ [Cisco Docs - System Management Configuration Guide, Cisco IOS XE Gibraltar 16.12.x (Catalyst 9300 Switches)](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sys_mgmt/b_1612_sys_mgmt_9300_cg.html)
 * 4.3.a Device management
   * 4.3.a i Console and VTY
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Controlling Switch Access with Passwords and Privilege Levels](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sec/b_1612_sec_9300_cg/controlling_switch_access_with_passwords_and_privilege_levels.html)
   * 4.3.a ii SSH, SCP
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Secure Copy](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sys_mgmt/b_1612_sys_mgmt_9300_cg/secure_copy.html)
   * 4.3.a iii RESTCONF, NETCONF
 * 4.3.b SNMP
-  * 🗒️ [Cisco Docs - SNMP Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Simple Network Management Protocol](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/nmgmt/b_1612_nmgmt_9300_cg/configuring_simple_network_management_protocol.html)
   * 4.3.b i v2c
   * 4.3.b ii v3
 * 4.3.c Logging
-  * 🗒️ [Cisco Docs - Configure System Messages Logs](https://www.cisco.com/en/US/docs/switches/lan/catalyst3850/software/release/3.2_0_se/multibook/configuration_guide/b_consolidated_config_guide_3850_chapter_01101.html)
   * 4.3.c i Local logging, syslog, debugs, conditional debugs
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring System Message Logs](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sys_mgmt/b_1612_sys_mgmt_9300_cg/configuring_system_message_logs.html)]
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Conditional Debug and Radioactive Tracing](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sys_mgmt/b_1612_sys_mgmt_9300_cg/conditional_debug_and_radioactive_tracing.html)
   * 4.3.c ii Timestamps
 
 ### 4.4 Quality of Service
@@ -426,13 +444,25 @@ Legend:
 * 4.5.a First-Hop Redundancy Protocols
   * 🗒️ [Cisco Docs - First Hop Redundancy Protocols Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipapp_fhrp/configuration/xe-16/fhp-xe-16-book.html)
   * 4.5.a i HSRP, GLBP, VRRP
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring HSRP](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/configuring___hsrp.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring GLBP](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/configuring_glbp.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: VRRPv3 Protocol Support](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/vrrpv3_protocol___support.html)
   * 4.5.a ii Redundancy using IPv6 RS/RA
 * 4.5.b Network Time Protocol
   * 🗒️ [Cisco Docs - Chapter: Network Time Protocol](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/bsm/configuration/xe-16/bsm-xe-16-book/bsm-time-calendar-set.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Administering the Device](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/sys_mgmt/b_1612_sys_mgmt_9300_cg/administering_the_device.html)
+  * [Ivan Pepelnjak - Secure Time Management (PDF)](https://learning.nil.com/assets/Tips-/Secure-Time-Management.pdf)
+  * [Cisco Troubleshooting TechNotes - Troubleshoot Network Time Protocol (NTP)](https://www.cisco.com/c/en/us/support/docs/ip/network-time-protocol-ntp/108076-ntp-troubleshoot.html)
+  * [Cisco Technology White Paper - Network Time Protocol: Best Practices White Paper](https://www.cisco.com/c/en/us/support/docs/availability/high-availability/19643-ntpm.html)
   * 4.5.b i Master, client
   * 4.5.b ii Authentication
 * 4.5.c DHCP on Cisco IOS
   * 🗒️ [Cisco Docs - IP Addressing: DHCP Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr_dhcp/configuration/xe-16-10/dhcp-xe-16-10-book.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring DHCP](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/configuring_dhcp.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: DHCP Gleaning](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/dhcp_gleaning.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: DHCP Options Support](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/dhcp_options_support.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: DHCPv6 Options Support](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/dhcpv6_options_support.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: DHCPv6 Relay Source Configuration](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/dhcpv6_relay_source_configuration.html)
   * 4.5.c i Client, server, relay
   * 4.5.c ii Options
   * 4.5.c iii SLAAC/DHCPv6 interaction
@@ -440,42 +470,49 @@ Legend:
   * 4.5.c v DHCPv6 Prefix Delegation
 * 4.5.d IPv4 Network Address Translation
   * 🗒️ [Cisco Docs - IP Addressing: NAT Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr_nat/configuration/xe-16-10/nat-xe-16-10-book.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Network Address Translation](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/configuring_network_address_translation.html) 
   * 4.5.d i Static NAT, PAT
   * 4.5.d ii Dynamic NAT, PAT
   * 4.5.d iii Policy-based NAT, PAT
   * 4.5.d iv VRF aware NAT, PAT
   * 4.5.d v IOS-XE VRF-Aware Software Infrastructure (VASI) NAT
     * 🗒️ [Cisco Docs - Configure VRF-Aware Software Infrastructure (VASI) NAT on IOS-XE](https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/200255-Configure-VRF-Aware-Software-Infrastruct.html)
-
+  
 ### 4.6 Network optimization
 
 * 4.6.a IP SLA
   * 🗒️ [Cisco IOS-XE Docs - IP SLA](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipsla/configuration/xe-16-10/sla-xe-16-10-book.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Service Level Agreements](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/nmgmt/b_1612_nmgmt_9300_cg/configuring_service_level_agreements.html)
   * 4.6.a i ICMP probes
   * 4.6.a ii UDP probes
   * 4.6.a iii TCP probes
 * 4.6.b Tracking object
   * 🗒️ [Cisco IOS-XE Docs - IP Application Services Configuration Guide Chapter: Configuring Enhanced Object Tracking](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipapp/configuration/xe-16-10/iap-xe-16-10-book/iap-eot.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Enhanced Object Tracking](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/ip/b_1612_ip_9300_cg/configuring_enhanced___object_tracking.html)
 * 4.6.c Flexible Netflow
   * 🗒️ [Cisco IOS-XE Docs Flexible NetFlow Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/fnetflow/configuration/xe-16-10/fnf-xe-16-10-book.html)
+  * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Flexible NetFlow](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/nmgmt/b_1612_nmgmt_9300_cg/configuring_flexible_netflow.html)
 
 ### 4.7 Network operations
 
 * 4.7.a Traffic capture
   * 4.7.a i SPAN
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring SPAN and RSPAN](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/nmgmt/b_1612_nmgmt_9300_cg/configuring_span_and_rspan.html)
   * 4.7.a ii RSPAN
     * 🗒️ [Cisco IOS 15.2 Docs - Chapter: Configuring SPAN and RSPAN](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3750x_3560x/software/release/15-2_4_e/configurationguide/b_1524e_consolidated_3750x_3560x_cg/b_1524e_consolidated_3750x_3560x_cg_chapter_0101000.html?bookSearch=true)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring SPAN and RSPAN](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/nmgmt/b_1612_nmgmt_9300_cg/configuring_span_and_rspan.html)
   * 4.7.a iii ERSPAN
     * 🗒️ [Cisco IOS-XE Docs - Chapter: Configuring ERSPAN](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/lanswitch/configuration/xe-16-10/lanswitch-xe-16-10-book/lnsw-conf-erspan.html?bookSearch=true) 
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring ERSPAN](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/nmgmt/b_1612_nmgmt_9300_cg/configuring_erspan.html)
   * 4.7.a iv Embedded Packet Capture
     * 🗒️ [Cisco IOS-XE Docs -  Chapter: Embedded Packet Capture Overview](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/epc/configuration/xe-16-10/epc-xe-16-10-book/nm-packet-capture-xe.html)
     * 🗒️ [Cisco Docs - Embedded Packet Capture for Cisco IOS and IOS-XE Configuration Example](https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-embedded-packet-capture/116045-productconfig-epc-00.html)
+    * 🗒️ [Cisco Docs - C9300 16.12 - Chapter: Configuring Packet Capture](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/16-12/configuration_guide/nmgmt/b_1612_nmgmt_9300_cg/configuring_packet_capture.html)
 * 4.7.b Cisco IOS-XE troubleshooting tools
   * 4.7.b i Packet Trace
     * 🗒️ [Cisco Docs - Troubleshooting Guide, Cisco IOS XE Release 3S (Cisco ASR 1000)](https://www.cisco.com/c/en/us/td/docs/routers/asr1000/troubleshooting/guide/Tblshooting-xe-3s-asr-1000-book.html)
     * 🗒️ [Cisco Docs - IOS-XE Datapath Packet Trace Feature](https://www.cisco.com/c/en/us/support/docs/content-networking/adaptive-session-redundancy-asr/117858-technote-asr-00.html)
   * 4.7.b ii Conditional debugger (debug platform condition)
-
 
 ## 5.0 Infrastructure Automation and Programmability 
 
@@ -512,11 +549,13 @@ Legend:
 * 5.3.a Interaction with vManage API
   * 🗒️ [DevNet Learning Track - Cisco SD-WAN Programmability](https://developer.cisco.com/learning/tracks/sd-wan_programmability)
   * 📺 [Pluralsight - Automating Cisco SD-WAN Operations Using APIs](https://app.pluralsight.com/library/courses/automating-cisco-sd-wan-operations-using-apis/table-of-contents)
+  * [vManage API Docs](https://developer.cisco.com/docs/sdwan/#!introduction)
   * 5.3.a i Python requests library and Postman
   * 5.3.a ii Monitoring endpoints
   * 5.3.a iii Configuration endpoints
 * 5.3.b Interaction with Cisco DNA Center API
   * 📺 [Pluralsight - Automating Cisco DNA Center Operations Using APIs](https://app.pluralsight.com/library/courses/automating-cisco-dna-center-operations-using-apis/)
+  * 📺 [Pluralsight - Managing Cisco Products Using Advanced API-based Methods (Module 2)](https://app.pluralsight.com/library/courses/managing-cisco-products-advanced-api-methods/table-of-contents)
   * 🗒️ [DevNet Learning Track - Programming the Digital Network Architecture (Cisco DNA)](https://developer.cisco.com/learning/tracks/programming-dna)
   * 🗒️ [DevNet Learning Track - Cisco DNA Center Programmability](https://developer.cisco.com/learning/tracks/dnacenter-programmability)
   * 5.3.b i HTTP request (GET, PUT, POST) via Python requests library and Postman
@@ -532,6 +571,7 @@ Legend:
   * 🗒️ [DevNet Docs - Streaming Telemetry](https://developer.cisco.com/docs/ios-xe/#!streaming-telemetry-quick-start-guide)
   * 🗒️ [DevNet Learning Labs - Introduction to Telemetry on IOS XE](https://developer.cisco.com/learning/modules/iosxe_telemetry/intro_telemetry_on_xe/step/1)
   * 🗒️ [DevNet Learning Labs - Enabling Telemetry On IOS XE](https://developer.cisco.com/learning/modules/iosxe_telemetry/enabling_telemetry_on_iosxe/step/1)
+  * [PluralSight - Deploying Network Configuration Management and Telemetry Solutions](https://app.pluralsight.com/library/courses/deploying-network-configuration-management-telemetry-solutions/table-of-contents)
   * 5.3.d i Configure on-change subscription using gRPC
 
 
