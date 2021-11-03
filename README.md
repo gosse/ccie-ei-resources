@@ -258,6 +258,7 @@ Legend:
   * 2.1.a i Underlay network (IS-IS, manual/PnP)
   * 2.1.a ii Overlay fabric design (LISP, VXLAN, Cisco TrustSec)
   * 2.1.a iii Fabric domains (single-site and multi-site using SD-WAN transit)
+    * [Cisco Live BRKCRS-2815 - Cisco SD-Access – Connecting Multiple Sites in a Single Fabric Domain](https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2020/pdf/BRKCRS-2815.pdf)
 * 2.1.b Cisco SD Access deployment
   * 2.1.b i Cisco DNA Center device discovery and device management
   * 2.1.b ii Add fabric node devices to an existing fabric
@@ -512,6 +513,7 @@ Legend:
   * 4.7.b i Packet Trace
     * 🗒️ [Cisco Docs - Troubleshooting Guide, Cisco IOS XE Release 3S (Cisco ASR 1000)](https://www.cisco.com/c/en/us/td/docs/routers/asr1000/troubleshooting/guide/Tblshooting-xe-3s-asr-1000-book.html)
     * 🗒️ [Cisco Docs - IOS-XE Datapath Packet Trace Feature](https://www.cisco.com/c/en/us/support/docs/content-networking/adaptive-session-redundancy-asr/117858-technote-asr-00.html)
+    * [Cisco Live - LTRARC-3500](https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2018/pdf/LTRARC-3500.pdf)
   * 4.7.b ii Conditional debugger (debug platform condition)
 
 ## 5.0 Infrastructure Automation and Programmability 
