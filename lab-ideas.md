@@ -6,30 +6,62 @@
 
 [ ] 1.1.a Switch administration
   [ ] 1.1.a i Managing MAC address table
+    * Configure static MAC-IP mapping on VLAN 10
   [ ] 1.1.a ii Errdisable recovery
+    * Enable errdisable recovery for all causes 
   [ ] 1.1.a iii L2 MTU
-[ ] 1.1.b Layer 2 protocols
-  [ ] 1.1.b i CDP, LLDP
-  [ ] 1.1.b ii UDLD
-[ ] 1.1.c VLAN technologies
-  [ ] 1.1.c i Access ports
-  [ ] 1.1.c ii Trunk ports (802.1Q)
-  [ ] 1.1.c iii Native VLAN
-  [ ] 1.1.c iv Manual VLAN pruning
-  [ ] 1.1.c v VLAN database
-  [ ] 1.1.c vi Normal range and extended range VLANs
-  [ ] 1.1.c vii Voice VLAN
-  [ ] 1.1.c viii VTP
-[ ] 1.1.d EtherChannel
-  [ ] 1.1.d i LACP, static
-  [ ] 1.1.d ii Layer 2, Layer 3
-  [ ] 1.1.d iii Load balancing
-  [ ] 1.1.d iv EtherChannel Misconfiguration Guard
-[ ] 1.1.e Spanning- Tree Protocol
-  [ ] 1.1.e i PVST+, Rapid PVST+, MST
-  [ ] 1.1.e ii Switch priority, port priority, path cost, STP timers
-  [ ] 1.1.e iii PortFast, BPDU Guard, BPDU Filter
-  [ ] 1.1.e iv Loop Guard, Root Guard
+    * Configure jumbo frames on all MPLS router interfaces
+* 1.1.b Layer 2 protocols
+  * 1.1.b i CDP, LLDP
+    * Enable CDP and LLDP on all interfaces in HQ site
+    * Transmit all TLVs in LLDP
+  * 1.1.b ii UDLD
+    * Enable UDLD at one branch, using fast hellos 
+    * On one device, enable globally, on another enable per-interface
+* 1.1.c VLAN technologies
+  * 1.1.c i Access ports
+  * 1.1.c ii Trunk ports (802.1Q)
+  * 1.1.c iii Native VLAN
+  * 1.1.c iv Manual VLAN pruning
+    * Configure manual VLAN pruning at core to agg level
+  * 1.1.c v VLAN database
+  * 1.1.c vi Normal range and extended range VLANs
+  * 1.1.c vii Voice VLAN
+    * Configure voice VLAN on all user ports at one branch
+  * 1.1.c viii VTP
+    * Configure VTPv2 at one branch
+      * Use a password that cannot be read in the config
+      * Configure automatic VLAN pruning 
+    * Configure VTPv3 at another branch
+      * Require a password to create more VLANs
+      * Configure MST and configure VTP to carry MST configuration
+* 1.1.d EtherChannel
+  * 1.1.d i LACP, static
+    * Configure static LAG 
+    * Change the config to LACP with one side initiating, other responding only
+  * 1.1.d ii Layer 2, Layer 3
+    * Configure a layer 3 port channel with subinterfaces
+  * 1.1.d iii Load balancing
+    * Modify load-balancing method on port-channels 
+  * 1.1.d iv EtherChannel Misconfiguration Guard
+    * Enable etherchannel misconfiguration guard and make a misconfiguration that makes it fire
+* 1.1.e Spanning- Tree Protocol
+  * 1.1.e i PVST+, Rapid PVST+, MST
+    * Configure PVST+ with uplinkfast, backbonefast at campus site
+    * Upgrade to Rapid PVST+ 
+    * Migrate to MST
+  * 1.1.e ii Switch priority, port priority, path cost, STP timers
+    * Modify STP path selection in campus with switch priority
+    * Modify STP path selection in campus with port priority
+    * Modify STP path selection in campus with path cost 
+    * Modify STP timers for faster convergence 
+  * 1.1.e iii PortFast, BPDU Guard, BPDU Filter
+    * Enable portfast on all access ports on campus access switches
+    * Enable bpduguard, make it fire
+    * Enable bpdufilter, cause a loop
+  * 1.1.e iv Loop Guard, Root Guard
+    * On one access switch, enable loop guard and root guard on all interfaces globally
+    * On another, enable loop guard and root guard per-interface, as needed
 
 ### 1.2 Routing Concepts
 
