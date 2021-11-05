@@ -213,7 +213,7 @@
   * 4.2.a i VACL, PACL
   * 4.2.a ii Storm control
   * 4.2.a iii DHCP Snooping, DHCP option 82
-  * 4.2.a iv IP Source 
+  * 4.2.a iv IP Source Guard
   * 4.2.a v Dynamic ARP Inspection
   * 4.2.a vi Port Security
   * 4.2.a vii Private VLAN

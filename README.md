@@ -313,6 +313,7 @@ Legend:
   * 3.1.a i Label stack, LSR, LSP
   * 3.1.a ii LDP
   * 3.1.a iii MPLS ping, MPLS traceroute
+    * [INE Blog - MPLS Ping and Traceroute](https://blog.ine.com/2008/11/24/mpls-ping-and-traceroute)
 * 3.1.b L3VPN
   * 3.1.b i PE-CE routing
   * 3.1.b ii MP-BGP VPNv4/VPNv6
@@ -478,6 +479,7 @@ Legend:
   * 4.5.d iv VRF aware NAT, PAT
   * 4.5.d v IOS-XE VRF-Aware Software Infrastructure (VASI) NAT
     * 🗒️ [Cisco Docs - Configure VRF-Aware Software Infrastructure (VASI) NAT on IOS-XE](https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/200255-Configure-VRF-Aware-Software-Infrastruct.html)
+    * [Cisco Docs - Configuring the VRF-Aware Software Infrastructure](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_data_zbf/configuration/xe-3s/sec-data-zbf-xe-book/conf-vasi.pdf)
   
 ### 4.6 Network optimization
 
