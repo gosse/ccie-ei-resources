@@ -259,6 +259,8 @@ Legend:
   * 2.1.a ii Overlay fabric design (LISP, VXLAN, Cisco TrustSec)
   * 2.1.a iii Fabric domains (single-site and multi-site using SD-WAN transit)
     * [Cisco Live BRKCRS-2815 - Cisco SD-Access – Connecting Multiple Sites in a Single Fabric Domain](https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2020/pdf/BRKCRS-2815.pdf)
+    * [CVD: Cisco SD-Access | SD-WAN Independent Domain Pairwise Integration](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/Cisco-SD-Access-SD-WAN-Independent-Domain-Guide.pdf)
+    * [CVD: Cisco SD-Access | SD-WAN Integrated Domain Pairwise Integration](https://www.cisco.com/c/dam/en/us/td/docs/solutions/CVD/Campus/Cisco-SD-Access-SD-WAN-Integrated-Domain-Guide.pdf)
 * 2.1.b Cisco SD Access deployment
   * 2.1.b i Cisco DNA Center device discovery and device management
   * 2.1.b ii Add fabric node devices to an existing fabric
